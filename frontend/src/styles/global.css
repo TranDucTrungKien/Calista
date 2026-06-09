@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MarvelCustom';
+  src: url('/assets/fonts/MarvelRegular-Dj83.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================================
+   Base typography
+   ============================================================ */
+html,
+body {
+  height: 100%;
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, .font-display {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ============================================================
+   Component primitives
+   ============================================================ */
+@layer components {
+  .container-app {
+    @apply mx-auto w-full max-w-container px-md md:px-lg;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-sm rounded-[8px] px-lg py-[12px] text-[14px] font-medium tracking-normal transition-all duration-150;
+  }
+  .btn:active {
+    transform: scale(0.97);
+  }
+  .btn-primary {
+    @apply btn bg-primary text-on-primary hover:opacity-90;
+  }
+  .btn-secondary {
+    @apply btn bg-surface-mid text-on-surface hover:bg-surface-high;
+  }
+  .btn-ghost {
+    @apply btn border border-outline-variant text-on-surface hover:border-on-surface hover:bg-surface-low;
+  }
+  .btn-block {
+    @apply w-full;
+  }
+
+  .input {
+    @apply w-full rounded-[8px] border border-outline-variant bg-surface px-md py-[12px] text-body-md text-on-surface placeholder:text-outline outline-none transition-colors focus:border-on-surface;
+  }
+  .input-error {
+    @apply border-error focus:border-error;
+  }
+
+  .label {
+    @apply mb-xs block text-[14px] font-medium text-on-surface;
+  }
+
+  .card {
+    @apply rounded-[14px] bg-surface border border-outline-variant;
+  }
+  .card-hover {
+    @apply transition-shadow duration-200 hover:shadow-hover;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-xs rounded-full px-[12px] py-[4px] text-[12px] font-medium;
+  }
+  .chip-skin {
+    @apply chip bg-primary-container text-on-primary-container;
+  }
+  .chip-attr {
+    @apply chip bg-surface-mid text-on-surface-variant;
+  }
+
+  .glass {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background: rgba(253, 250, 246, 0.92);
+  }
+
+  .add-btn {
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid var(--color-on-surface);
+    border-radius: 0;
+    padding: 4px 10px;
+    background: transparent;
+    color: var(--color-on-surface);
+    cursor: pointer;
+    transition: background 150ms, color 150ms;
+  }
+  .add-btn:hover {
+    background: var(--color-on-surface);
+    color: var(--color-background);
+  }
+
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      var(--color-surface-container-low) 0%,
+      var(--color-surface-container-high) 50%,
+      var(--color-surface-container-low) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+    border-radius: 8px;
+  }
+}
+
+@layer utilities {
+  .text-display-lg {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+  }
+  .text-display-lg-mob {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+  }
+  .text-headline-md {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+  }
+  .text-headline-sm {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+  .text-body-lg {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .text-body-md {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .text-body-sm {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .text-label-md {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .text-label-sm {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Scrollbar — subtle */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-container-high);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-outline);
+}
+
+/* Hide default focus on mouse but keep for keyboard */
+:focus:not(:focus-visible) {
+  outline: none;
+}
