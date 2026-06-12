@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "6a17f4b038f7fdba63fc465d",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc45db",
+    "rating": 5,
+    "comment": "Mình da nhạy cảm mà dùng không bị kích ứng, rất ưng.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.738Z",
+    "updatedAt": "2026-05-28T07:54:24.738Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc465f",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc45db",
+    "rating": 5,
+    "comment": "Sản phẩm dùng rất thích, da căng mịn rõ rệt sau 2 tuần.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.738Z",
+    "updatedAt": "2026-05-28T07:54:24.738Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4661",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc45db",
+    "rating": 5,
+    "comment": "Mùi hương dịu nhẹ, kết cấu mỏng nhẹ thấm nhanh, sẽ mua lại.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.739Z",
+    "updatedAt": "2026-05-28T07:54:24.739Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4665",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4607",
+    "rating": 5,
+    "comment": "Mùi hương dịu nhẹ, kết cấu mỏng nhẹ thấm nhanh, sẽ mua lại.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.750Z",
+    "updatedAt": "2026-05-28T07:54:24.750Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4667",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4607",
+    "rating": 4,
+    "comment": "Đóng gói đẹp, giao hàng nhanh, da đỡ khô hơn nhiều.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.751Z",
+    "updatedAt": "2026-05-28T07:54:24.751Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4669",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4607",
+    "rating": 5,
+    "comment": "Mua lần 3 rồi vẫn không thất vọng, thương hiệu Việt đáng tự hào.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.752Z",
+    "updatedAt": "2026-05-28T07:54:24.752Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc466d",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4621",
+    "rating": 5,
+    "comment": "Sản phẩm dùng rất thích, da căng mịn rõ rệt sau 2 tuần.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.756Z",
+    "updatedAt": "2026-05-28T07:54:24.756Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc466f",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4621",
+    "rating": 5,
+    "comment": "Mình da nhạy cảm mà dùng không bị kích ứng, rất ưng.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.757Z",
+    "updatedAt": "2026-05-28T07:54:24.757Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4671",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4621",
+    "rating": 4,
+    "comment": "Đóng gói đẹp, giao hàng nhanh, da đỡ khô hơn nhiều.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.758Z",
+    "updatedAt": "2026-05-28T07:54:24.758Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4675",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc462d",
+    "rating": 4,
+    "comment": "Giá hợp lý so với chất lượng. Sẽ tiếp tục ủng hộ Calista.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.766Z",
+    "updatedAt": "2026-05-28T07:54:24.766Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4677",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc462d",
+    "rating": 5,
+    "comment": "Mùi hương dịu nhẹ, kết cấu mỏng nhẹ thấm nhanh, sẽ mua lại.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.767Z",
+    "updatedAt": "2026-05-28T07:54:24.767Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4679",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc462d",
+    "rating": 5,
+    "comment": "Sản phẩm dùng rất thích, da căng mịn rõ rệt sau 2 tuần.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.768Z",
+    "updatedAt": "2026-05-28T07:54:24.768Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc467d",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4651",
+    "rating": 5,
+    "comment": "Sản phẩm dùng rất thích, da căng mịn rõ rệt sau 2 tuần.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.772Z",
+    "updatedAt": "2026-05-28T07:54:24.772Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc467f",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4651",
+    "rating": 5,
+    "comment": "Mùi hương dịu nhẹ, kết cấu mỏng nhẹ thấm nhanh, sẽ mua lại.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.773Z",
+    "updatedAt": "2026-05-28T07:54:24.773Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4681",
+    "userId": "6a17f4b038f7fdba63fc45d6",
+    "productId": "6a17f4b038f7fdba63fc4651",
+    "rating": 5,
+    "comment": "Mua lần 3 rồi vẫn không thất vọng, thương hiệu Việt đáng tự hào.",
+    "images": [],
+    "createdAt": "2026-05-28T07:54:24.774Z",
+    "updatedAt": "2026-05-28T07:54:24.774Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "6a17f4b038f7fdba63fc45d9",
+    "name": "Làm sạch",
+    "slug": "lam-sach",
+    "description": "Sữa rửa mặt, gel rửa và dầu tẩy trang dịu nhẹ cho mọi loại da.",
+    "image": "http://localhost:5000/uploads/images/lamsach.png",
+    "order": 0,
+    "createdAt": "2026-05-28T07:54:24.661Z",
+    "updatedAt": "2026-05-28T07:54:24.661Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4605",
+    "name": "Cân bằng & Cấp nền",
+    "slug": "can-bang-cap-nen",
+    "description": "Toner, essence và xịt khoáng giúp da cân bằng dầu nước, cấp nền trước các bước dưỡng.",
+    "image": "http://localhost:5000/uploads/images/canbangvacapnen.png",
+    "order": 0,
+    "createdAt": "2026-05-28T07:54:24.692Z",
+    "updatedAt": "2026-05-28T07:54:24.692Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4613",
+    "name": "Treatment",
+    "slug": "treatment",
+    "description": "Tinh chất serum và gel đặc trị cho từng vấn đề da.",
+    "image": "http://localhost:5000/uploads/images/treatment.png",
+    "order": 0,
+    "createdAt": "2026-05-28T07:54:24.700Z",
+    "updatedAt": "2026-05-28T07:54:24.700Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4627",
+    "name": "Dưỡng ẩm",
+    "slug": "duong-am",
+    "description": "Gel dưỡng, kem dưỡng sâu cho làn da căng mọng, mềm mịn suốt ngày.",
+    "image": "http://localhost:5000/uploads/images/duongam.png",
+    "order": 0,
+    "createdAt": "2026-05-28T07:54:24.710Z",
+    "updatedAt": "2026-05-28T07:54:24.710Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc4633",
+    "name": "Mặt nạ",
+    "slug": "mat-na",
+    "description": "Mặt nạ đất sét, mặt nạ ngủ và mặt nạ giấy phục hồi và chăm sóc chuyên sâu.",
+    "image": "http://localhost:5000/uploads/images/matna.png",
+    "order": 0,
+    "createdAt": "2026-05-28T07:54:24.715Z",
+    "updatedAt": "2026-05-28T07:54:24.715Z",
+    "__v": 0
+  }
+]

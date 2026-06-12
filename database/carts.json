@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "6a12748bf8498ef8eb117e74",
+    "userId": "6a1272ce11d37807277d3a29",
+    "items": [],
+    "createdAt": "2026-05-24T03:46:19.410Z",
+    "updatedAt": "2026-05-24T03:46:19.410Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a127b9df8498ef8eb117edd",
+    "userId": "6a127b485f4b0629dd887d8b",
+    "items": [],
+    "createdAt": "2026-05-24T04:16:29.789Z",
+    "updatedAt": "2026-05-24T04:16:29.789Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a141f7b8e64d25a9c29caac",
+    "userId": "6a141f1110a3944793eb9f58",
+    "items": [],
+    "createdAt": "2026-05-25T10:07:55.367Z",
+    "updatedAt": "2026-05-25T10:07:55.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a1422b38e64d25a9c29caef",
+    "userId": "6a142291a57ce9fff1812ceb",
+    "items": [],
+    "createdAt": "2026-05-25T10:21:39.072Z",
+    "updatedAt": "2026-05-25T10:21:39.072Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a142396d950ca89ec8962fd",
+    "userId": "6a142389b275c9cd1b557316",
+    "items": [
+      {
+        "productId": "6a142389b275c9cd1b55736f",
+        "qty": 1,
+        "price": 419000,
+        "snapshot": {
+          "name": "Kem dưỡng da khô bơ hạt mỡ",
+          "image": "/assets/products/Kem dưỡng da khô bơ hạt mỡ.png",
+          "slug": "kem-duong-da-kho-bo-hat-mo"
+        },
+        "_id": "6a1465b97c63c0ababb03234"
+      }
+    ],
+    "createdAt": "2026-05-25T10:25:26.601Z",
+    "updatedAt": "2026-05-25T15:07:37.272Z",
+    "__v": 1
+  },
+  {
+    "_id": "6a17eeb64a31cfe7dc9db361",
+    "userId": "6a17ee890a5b633f5be20b2d",
+    "items": [],
+    "createdAt": "2026-05-28T07:28:54.761Z",
+    "updatedAt": "2026-05-28T07:28:54.761Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f2d424033e069f385155",
+    "userId": "6a17f2890b6292a6296ebb28",
+    "items": [],
+    "createdAt": "2026-05-28T07:46:28.943Z",
+    "updatedAt": "2026-05-28T07:46:28.943Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4d91771b42ac93e65ce",
+    "userId": "6a17f4b038f7fdba63fc45d4",
+    "items": [],
+    "createdAt": "2026-05-28T07:55:05.867Z",
+    "updatedAt": "2026-05-28T08:05:09.050Z",
+    "__v": 2
+  }
+]

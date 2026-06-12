@@ -1,0 +1,39 @@
+[
+  {
+    "_id": "6a17f4b038f7fdba63fc45d4",
+    "email": "admin@calista.vn",
+    "passwordHash": "$2a$12$FvApuXig1mZl1poRfVAAGe6rikcddyiuL7/54DLjI.Km7qptwiEBK",
+    "name": "Quản trị Calista",
+    "phone": "0900000001",
+    "role": "admin",
+    "wishlist": [],
+    "addresses": [],
+    "createdAt": "2026-05-28T07:54:24.654Z",
+    "updatedAt": "2026-05-28T07:54:24.654Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a17f4b038f7fdba63fc45d6",
+    "email": "khach@calista.vn",
+    "passwordHash": "$2a$12$8a6QUJUhTiwUeJUgj5iJGefYEwGW6Cdjpss8FP4/9KpcOw00pJ5zC",
+    "name": "Khách Hàng Calista",
+    "phone": "0900000002",
+    "addresses": [
+      {
+        "fullName": "Khách Hàng Calista",
+        "phone": "0900000002",
+        "line1": "123 Lê Lợi",
+        "ward": "Phường Bến Nghé",
+        "district": "Quận 1",
+        "province": "TP. Hồ Chí Minh",
+        "isDefault": true,
+        "_id": "6a17f4b038f7fdba63fc45d7"
+      }
+    ],
+    "role": "customer",
+    "wishlist": [],
+    "createdAt": "2026-05-28T07:54:24.660Z",
+    "updatedAt": "2026-05-28T07:54:24.660Z",
+    "__v": 0
+  }
+]
