@@ -19,7 +19,7 @@ async function haravanFetch(path, options = {}) {
 
 // ─── Products ────────────────────────────────────────────────────────────────
 
-exports.getProducts = ({ limit = 20, page = 1, title, handle, collection_id } = {}) => {
+exports.getProducts = ({ limit = 50, page = 1, title, handle, collection_id } = {}) => {
   const params = new URLSearchParams({ limit, page });
   if (title) params.set('title', title);
   if (handle) params.set('handle', handle);
@@ -28,6 +28,23 @@ exports.getProducts = ({ limit = 20, page = 1, title, handle, collection_id } = 
 };
 
 exports.getProduct = (id) => haravanFetch(`/products/${id}.json`);
+
+// Fetches ALL products across multiple pages (Haravan max 50/page)
+exports.getAllProducts = async () => {
+  const first = await exports.getProducts({ limit: 50, page: 1 });
+  const all = [...(first.products || [])];
+  const total = first.count ?? all.length;
+  const pages = Math.ceil(total / 50);
+  if (pages > 1) {
+    const rest = await Promise.all(
+      Array.from({ length: pages - 1 }, (_, i) =>
+        exports.getProducts({ limit: 50, page: i + 2 })
+      )
+    );
+    rest.forEach((r) => all.push(...(r.products || [])));
+  }
+  return all;
+};
 
 exports.countProducts = () => haravanFetch('/products/count.json');
 

@@ -114,44 +114,37 @@ function issueTokens(customer) {
 // ─── Products ────────────────────────────────────────────────────────────────
 
 exports.listProducts = handle(async (req, res) => {
-  const limit = Math.min(Number(req.query.limit) || 20, 250);
+  const limit = Math.min(Number(req.query.limit) || 20, 100);
   const page = Number(req.query.page) || 1;
 
-  const params = { limit, page };
-  if (req.query.q) params.title = req.query.q;
-  // category param may be a Haravan collection ID (numeric) or a collection name string
-  const cat = req.query.category;
-  if (cat && /^\d+$/.test(cat)) {
-    params.collection_id = cat;
-  } else if (req.query.collection_id) {
-    params.collection_id = req.query.collection_id;
+  // Always fetch full catalog for accurate in-memory filtering
+  let rawProducts;
+  if (req.query.q) {
+    // Use Haravan title search for text queries (faster, server-side)
+    const d = await haravan.getProducts({ limit: 50, title: req.query.q });
+    rawProducts = d.products || [];
+  } else {
+    rawProducts = await haravan.getAllProducts();
   }
 
-  const [productsData, countData] = await Promise.all([
-    haravan.getProducts(params),
-    haravan.countProducts(),
-  ]);
+  let products = rawProducts.map(mapProduct);
 
-  let products = (productsData.products || []).map(mapProduct);
-
-  // filter by category name string (product_type) when non-numeric category is given
-  if (cat && !/^\d+$/.test(cat)) {
+  // category: use the category name as ID (derived from product_type)
+  if (req.query.category) {
+    const cat = req.query.category;
     products = products.filter((p) =>
-      p.categories.some((c) => c && c.toLowerCase() === cat.toLowerCase())
+      p.categories.some((c) => c && c === cat)
     );
   }
 
-  // filter by skinType
   if (req.query.skinType) {
     products = products.filter((p) => p.skinTypes.includes(req.query.skinType));
   }
 
-  // filter by tag
   if (req.query.tag) {
     products = products.filter((p) => p.tags.includes(req.query.tag));
   }
 
-  // filter by price
   if (req.query.minPrice) {
     products = products.filter((p) => p.price >= Number(req.query.minPrice));
   }
@@ -159,16 +152,18 @@ exports.listProducts = handle(async (req, res) => {
     products = products.filter((p) => p.price <= Number(req.query.maxPrice));
   }
 
-  // featured filter
   if (req.query.featured === 'true') {
     products = products.filter((p) => p.isFeatured);
   }
 
-  // sort
   if (req.query.sort === 'price_asc') products.sort((a, b) => a.price - b.price);
   else if (req.query.sort === 'price_desc') products.sort((a, b) => b.price - a.price);
 
-  res.json({ items: products, total: countData.count || products.length, page, limit });
+  const total = products.length;
+  const start = (page - 1) * limit;
+  const items = products.slice(start, start + limit);
+
+  res.json({ items, total, page, limit });
 });
 
 exports.countProducts = handle(async (_req, res) => {
@@ -194,9 +189,9 @@ exports.getProduct = handle(async (req, res) => {
     return res.status(404).json({ message: 'Sản phẩm không tồn tại' });
   }
 
-  // related: same product_type, up to 8, exclude current
-  const relatedData = await haravan.getProducts({ limit: 50 });
-  const related = (relatedData.products || [])
+  // related: same product_type, up to 8, exclude current (fetch full catalog)
+  const allRaw = await haravan.getAllProducts();
+  const related = allRaw
     .filter((p) => p.handle !== product.slug && p.product_type === (product.categories[0] || ''))
     .slice(0, 8)
     .map(mapProduct);
@@ -206,9 +201,48 @@ exports.getProduct = handle(async (req, res) => {
 
 // ─── Collections / Categories ─────────────────────────────────────────────────
 
+// Ordered list matching original MongoDB category order
+const CATEGORY_ORDER = [
+  'Sữa rửa mặt',
+  'Tẩy trang',
+  'Nước cân bằng da',
+  'Tinh chất dưỡng',
+  'Kem dưỡng ẩm',
+  'Mặt nạ',
+  'Tẩy tế bào chết',
+  'Sản phẩm trị mụn',
+  'Xịt khoáng',
+  'Khác',
+];
+
 exports.listCategories = handle(async (_req, res) => {
-  const data = await haravan.getCollections({ limit: 50 });
-  const items = (data.custom_collections || []).map(mapCategory);
+  // Derive categories from product_type of actual products (not Haravan collections)
+  const rawProducts = await haravan.getAllProducts();
+
+  const seen = new Set();
+  rawProducts.forEach((p) => {
+    const name = (p.product_type || '').trim();
+    if (name) seen.add(name);
+  });
+
+  // Sort by canonical order, then alphabetically for any extras
+  const names = [...seen].sort((a, b) => {
+    const ia = CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b);
+    if (ia !== -1 && ib !== -1) return ia - ib;
+    if (ia !== -1) return -1;
+    if (ib !== -1) return 1;
+    return a.localeCompare(b, 'vi');
+  });
+
+  const items = names.map((name) => ({
+    _id: name,   // use category name as ID — Angular passes it back for filtering
+    name,
+    slug: name,
+    description: '',
+    image: '',
+  }));
+
   res.json({ items });
 });
 
