@@ -9,15 +9,15 @@ export class UsersService {
   private base = environment.apiUrl;
 
   me() {
-    return this.http.get<{ user: User }>(`${this.base}/users/me`);
+    return this.http.get<{ user: User }>(`${this.base}/haravan/me`);
   }
 
   update(body: Partial<Pick<User, 'name' | 'phone' | 'avatar'>>) {
-    return this.http.put<{ user: User }>(`${this.base}/users/me`, body);
+    return this.http.put<{ user: User }>(`${this.base}/haravan/me`, body);
   }
 
   changePassword(currentPassword: string, newPassword: string) {
-    return this.http.put<{ message: string }>(`${this.base}/users/me/password`, {
+    return this.http.put<{ message: string }>(`${this.base}/haravan/me/password`, {
       currentPassword,
       newPassword,
     });

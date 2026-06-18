@@ -35,17 +35,17 @@ export class ProductsService {
         params = params.set(k, String(v));
       }
     });
-    return this.http.get<ProductList>(`${this.base}/products`, { params });
+    return this.http.get<ProductList>(`${this.base}/haravan/products`, { params });
   }
 
   detail(slug: string) {
     return this.http.get<{ product: Product; related: Product[] }>(
-      `${this.base}/products/${slug}`
+      `${this.base}/haravan/products/${slug}`
     );
   }
 
   categories() {
-    return this.http.get<{ items: Category[] }>(`${this.base}/categories`);
+    return this.http.get<{ items: Category[] }>(`${this.base}/haravan/categories`);
   }
 
   reviews(productId: string) {

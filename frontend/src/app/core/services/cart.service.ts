@@ -1,17 +1,10 @@
-import { Injectable, computed, effect, inject, signal } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { environment } from '../../../environments/environment';
+import { Injectable, computed, effect, signal } from '@angular/core';
 import { Cart, CartItem, Product } from '../models';
-import { AuthService } from './auth.service';
 
 const LOCAL_KEY = 'calista.cart';
 
 @Injectable({ providedIn: 'root' })
 export class CartService {
-  private http = inject(HttpClient);
-  private auth = inject(AuthService);
-  private base = environment.apiUrl;
-
   private _cart = signal<Cart>(this.readLocal());
 
   cart = this._cart.asReadonly();
@@ -24,12 +17,7 @@ export class CartService {
 
   constructor() {
     effect(() => {
-      const c = this._cart();
-      if (!this.auth.isAuthenticated()) {
-        localStorage.setItem(LOCAL_KEY, JSON.stringify(c));
-      } else {
-        localStorage.removeItem(LOCAL_KEY);
-      }
+      localStorage.setItem(LOCAL_KEY, JSON.stringify(this._cart()));
     });
   }
 
@@ -42,50 +30,18 @@ export class CartService {
     }
   }
 
-  load() {
-    if (this.auth.isAuthenticated()) {
-      this.http.get<{ cart: Cart }>(`${this.base}/cart`).subscribe({
-        next: (res) => this._cart.set(res.cart),
-        error: () => {},
-      });
-    }
-  }
+  load() {}
 
-  mergeOnLogin() {
-    const local = this.readLocal();
-    if (!local.items.length) {
-      this.load();
-      return;
-    }
-    this.http
-      .post<{ cart: Cart }>(`${this.base}/cart/merge`, {
-        items: local.items.map((i) => ({ productId: i.productId, qty: i.qty })),
-      })
-      .subscribe({
-        next: (res) => {
-          this._cart.set(res.cart);
-          localStorage.removeItem(LOCAL_KEY);
-        },
-      });
-  }
+  mergeOnLogin() {}
 
   add(product: Product, qty = 1) {
-    if (this.auth.isAuthenticated()) {
-      this.http
-        .post<{ cart: Cart }>(`${this.base}/cart`, {
-          productId: product._id,
-          qty,
-        })
-        .subscribe({ next: (res) => this._cart.set(res.cart) });
-      return;
-    }
     const cart = { ...this._cart(), items: [...this._cart().items] };
     const idx = cart.items.findIndex((i) => i.productId === product._id);
     if (idx >= 0) {
       cart.items[idx] = { ...cart.items[idx], qty: cart.items[idx].qty + qty };
     } else {
       cart.items.push({
-        _id: `local-${Date.now()}`,
+        _id: `local-${product._id}`,
         productId: product._id,
         qty,
         price: product.price,
@@ -101,12 +57,6 @@ export class CartService {
 
   updateQty(item: CartItem, qty: number) {
     qty = Math.max(1, qty);
-    if (this.auth.isAuthenticated()) {
-      this.http
-        .put<{ cart: Cart }>(`${this.base}/cart/${item._id}`, { qty })
-        .subscribe({ next: (res) => this._cart.set(res.cart) });
-      return;
-    }
     const cart = { ...this._cart() };
     cart.items = cart.items.map((i) =>
       i._id === item._id ? { ...i, qty } : i
@@ -115,24 +65,12 @@ export class CartService {
   }
 
   remove(item: CartItem) {
-    if (this.auth.isAuthenticated()) {
-      this.http
-        .delete<{ cart: Cart }>(`${this.base}/cart/${item._id}`)
-        .subscribe({ next: (res) => this._cart.set(res.cart) });
-      return;
-    }
     const cart = { ...this._cart() };
     cart.items = cart.items.filter((i) => i._id !== item._id);
     this._cart.set(cart);
   }
 
   clear() {
-    if (this.auth.isAuthenticated()) {
-      this.http
-        .delete<{ cart: Cart }>(`${this.base}/cart`)
-        .subscribe({ next: (res) => this._cart.set(res.cart) });
-      return;
-    }
     this._cart.set({ items: [] });
   }
 }

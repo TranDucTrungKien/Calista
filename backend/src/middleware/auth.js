@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/user');
 
 async function requireAuth(req, _res, next) {
   try {
@@ -12,14 +11,12 @@ async function requireAuth(req, _res, next) {
       return next(err);
     }
     const payload = jwt.verify(token, process.env.JWT_ACCESS_SECRET);
-    const user = await User.findById(payload.sub).select('-passwordHash');
-    if (!user) {
-      const err = new Error('Tài khoản không tồn tại');
-      err.status = 401;
-      err.expose = true;
-      return next(err);
-    }
-    req.user = user;
+    req.user = {
+      id: payload.sub,
+      email: payload.email,
+      name: payload.name || '',
+      role: payload.role || 'customer',
+    };
     return next();
   } catch (err) {
     err.status = 401;

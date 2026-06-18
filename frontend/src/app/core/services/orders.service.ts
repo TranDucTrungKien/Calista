@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
-import { Address, Order, OrderStatus, PaymentMethod } from '../models';
+import { Address, CartItem, Order, OrderStatus, PaymentMethod } from '../models';
 
 @Injectable({ providedIn: 'root' })
 export class OrdersService {
@@ -12,24 +12,25 @@ export class OrdersService {
     shippingAddress: Omit<Address, '_id' | 'isDefault'>;
     paymentMethod: PaymentMethod;
     note?: string;
+    items: CartItem[];
   }) {
     return this.http.post<{
       order: Order;
       payment: { provider: string; payUrl: string | null };
-    }>(`${this.base}/orders`, body);
+    }>(`${this.base}/haravan/orders`, body);
   }
 
   listMine() {
-    return this.http.get<{ items: Order[] }>(`${this.base}/orders`);
+    return this.http.get<{ items: Order[] }>(`${this.base}/haravan/orders/mine`);
   }
 
   detail(id: string) {
-    return this.http.get<{ order: Order }>(`${this.base}/orders/${id}`);
+    return this.http.get<{ order: Order }>(`${this.base}/haravan/orders/${id}`);
   }
 
-  cancel(id: string) {
+  cancel(_id: string) {
     return this.http.put<{ order: Order }>(
-      `${this.base}/orders/${id}/cancel`,
+      `${this.base}/haravan/orders/${_id}/cancel`,
       {}
     );
   }
@@ -38,7 +39,7 @@ export class OrdersService {
     const params: Record<string, string> = {};
     if (status) params['status'] = status;
     return this.http.get<{ items: Order[]; total: number }>(
-      `${this.base}/orders/admin`,
+      `${this.base}/haravan/admin/orders`,
       { params }
     );
   }

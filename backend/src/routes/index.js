@@ -11,5 +11,6 @@ router.use('/payment', require('./payment'));
 router.use('/upload', require('./upload'));
 router.use('/tiktok', require('./tiktok'));
 router.use('/shopee', require('./shopee'));
+router.use('/haravan', require('./haravan'));
 
 module.exports = router;

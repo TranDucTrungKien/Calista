@@ -55,7 +55,7 @@ export class AuthService {
   login(email: string, password: string): Observable<AuthResponse> {
     return this.http
       .post<AuthResponse>(
-        `${environment.apiUrl}/auth/login`,
+        `${environment.apiUrl}/haravan/auth/login`,
         { email, password },
         { withCredentials: true }
       )
@@ -69,7 +69,7 @@ export class AuthService {
     phone?: string;
   }): Observable<AuthResponse> {
     return this.http
-      .post<AuthResponse>(`${environment.apiUrl}/auth/register`, payload, {
+      .post<AuthResponse>(`${environment.apiUrl}/haravan/auth/register`, payload, {
         withCredentials: true,
       })
       .pipe(tap((res) => this.store(res)));
@@ -78,7 +78,7 @@ export class AuthService {
   refresh(): Observable<AuthResponse> {
     return this.http
       .post<AuthResponse>(
-        `${environment.apiUrl}/auth/refresh`,
+        `${environment.apiUrl}/haravan/auth/refresh`,
         {},
         { withCredentials: true }
       )
@@ -88,7 +88,7 @@ export class AuthService {
   logout() {
     this.http
       .post(
-        `${environment.apiUrl}/auth/logout`,
+        `${environment.apiUrl}/haravan/auth/logout`,
         {},
         { withCredentials: true }
       )

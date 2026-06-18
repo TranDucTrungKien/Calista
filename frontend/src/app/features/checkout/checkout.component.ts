@@ -188,7 +188,7 @@ export class CheckoutComponent implements OnInit {
       return;
     }
     this.loading.set(true);
-    this.orders.create(this.form.getRawValue() as any).subscribe({
+    this.orders.create({ ...this.form.getRawValue() as any, items: this.cart.cart().items }).subscribe({
       next: (res) => {
         this.cart.clear();
         this.toast.success(`Đặt hàng thành công — Mã đơn ${res.order.code}`);
