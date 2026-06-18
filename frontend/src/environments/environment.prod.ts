@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://calista-gilt.vercel.app/api',
+  apiUrl: 'https://calista-uel-api.vercel.app/api',
 };
