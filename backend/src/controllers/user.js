@@ -91,7 +91,7 @@ exports.getWishlist = async (req, res, next) => {
   try {
     const user = await User.findById(req.user._id).populate({
       path: 'wishlist',
-      populate: { path: 'category', select: 'name slug' },
+      populate: { path: 'categories', select: 'name slug' },
     });
     res.json({ items: user.wishlist });
   } catch (err) {

@@ -8,6 +8,7 @@ import { VndPipe } from '../../shared/pipes/vnd.pipe';
 import { CheckCircleIconComponent } from '../../shared/icons/check-circle-icon.component';
 import { PackageIconComponent } from '../../shared/icons/package-icon.component';
 import { ChevronLeftIconComponent } from '../../shared/icons/chevron-left-icon.component';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 const STATUS_ORDER = [
   'Chờ xác nhận',
@@ -26,6 +27,7 @@ const STATUS_ORDER = [
     CheckCircleIconComponent,
     PackageIconComponent,
     ChevronLeftIconComponent,
+    StarButtonDirective,
   ],
   template: `
     @if (order(); as o) {
@@ -126,7 +128,7 @@ const STATUS_ORDER = [
             </div>
           </section>
           @if (o.orderStatus === 'Chờ xác nhận') {
-            <button type="button" (click)="cancel(o._id)" class="btn-ghost btn-block">Hủy đơn hàng</button>
+            <button type="button" (click)="cancel(o._id)" class="btn-ghost btn-block" appStarBtn>Hủy đơn hàng</button>
           }
         </aside>
       </div>

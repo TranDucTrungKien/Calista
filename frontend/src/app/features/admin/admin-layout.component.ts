@@ -27,6 +27,7 @@ import { ChevronLeftIconComponent } from '../../shared/icons/chevron-left-icon.c
           <a routerLink="/admin/don-hang" routerLinkActive="bg-primary-container text-on-primary-container" class="block px-md py-sm rounded-md text-body-sm hover:bg-surface-mid">Đơn hàng</a>
           <a routerLink="/admin/nguoi-dung" routerLinkActive="bg-primary-container text-on-primary-container" class="block px-md py-sm rounded-md text-body-sm hover:bg-surface-mid">Người dùng</a>
           <a routerLink="/admin/tiktok" routerLinkActive="bg-primary-container text-on-primary-container" class="block px-md py-sm rounded-md text-body-sm hover:bg-surface-mid">TikTok Shop</a>
+          <a routerLink="/admin/shopee" routerLinkActive="bg-primary-container text-on-primary-container" class="block px-md py-sm rounded-md text-body-sm hover:bg-surface-mid">Shopee</a>
         </nav>
       </aside>
       <main class="p-lg">

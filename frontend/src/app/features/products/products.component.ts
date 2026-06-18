@@ -13,8 +13,8 @@ import { FilterIconComponent } from '../../shared/icons/filter-icon.component';
 import { CloseIconComponent } from '../../shared/icons/close-icon.component';
 import { ChevronRightIconComponent } from '../../shared/icons/chevron-right-icon.component';
 
-const SKIN_TYPES = ['Da dầu', 'Da khô', 'Da nhạy cảm', 'Da hỗn hợp', 'Mọi loại da'];
-const TAGS = ['Thuần chay', 'Hữu cơ', 'Không thử nghiệm động vật', 'Chiết xuất thiên nhiên'];
+const SKIN_TYPES = ['Da dầu', 'Da khô', 'Da nhạy cảm', 'Da hỗn hợp', 'Da thường', 'Da mụn', 'Mọi loại da'];
+const TAGS = ['Thuần chay', 'Chiết xuất thiên nhiên', 'Đặc trị', 'Chăm sóc chuyên sâu', 'Tẩy tế bào chết'];
 
 const SORTS = [
   { value: 'createdAt:desc', label: 'Mới nhất' },
@@ -235,6 +235,12 @@ export class ProductsComponent implements OnInit, OnDestroy {
       this.q.set(p.get('q') || '');
       this.sort = p.get('sort') || 'createdAt:desc';
       this.page.set(Number(p.get('page')) || 1);
+      const skinParam = p.get('skinType');
+      this.skin.set(skinParam ? skinParam.split(',').filter(Boolean) : []);
+      const tagParam = p.get('tag');
+      this.selectedTags.set(tagParam ? tagParam.split(',').filter(Boolean) : []);
+      this.minPrice = p.get('minPrice') ? Number(p.get('minPrice')) : null;
+      this.maxPrice = p.get('maxPrice') ? Number(p.get('maxPrice')) : null;
       this.syncCategory();
       this.fetch();
     });
@@ -364,10 +370,13 @@ export class ProductsComponent implements OnInit, OnDestroy {
       queryParams: {
         category: this.category() || null,
         q: this.q() || null,
-        sort: this.sort,
+        sort: this.sort !== 'createdAt:desc' ? this.sort : null,
         page: this.page() > 1 ? this.page() : null,
+        skinType: this.skin().length ? this.skin().join(',') : null,
+        tag: this.selectedTags().length ? this.selectedTags().join(',') : null,
+        minPrice: this.minPrice ?? null,
+        maxPrice: this.maxPrice ?? null,
       },
-      queryParamsHandling: 'merge',
     });
   }
 }

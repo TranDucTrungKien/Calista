@@ -20,7 +20,7 @@ exports.list = async (req, res, next) => {
     const filter = { isActive: true };
     if (category) {
       const cat = await Category.findOne({ slug: category });
-      if (cat) filter.category = cat._id;
+      if (cat) filter.categories = cat._id;
       else return res.json({ items: [], total: 0, page: 1, limit });
     }
     if (skinType) filter.skinTypes = { $in: String(skinType).split(',') };
@@ -41,7 +41,7 @@ exports.list = async (req, res, next) => {
 
     const [items, total] = await Promise.all([
       Product.find(filter)
-        .populate('category', 'name slug')
+        .populate('categories', 'name slug')
         .sort(sortObj)
         .skip((pg - 1) * lim)
         .limit(lim),
@@ -58,7 +58,7 @@ exports.detail = async (req, res, next) => {
   try {
     const { slug } = req.params;
     const product = await Product.findOne({ slug, isActive: true }).populate(
-      'category',
+      'categories',
       'name slug'
     );
     if (!product) {
@@ -67,13 +67,14 @@ exports.detail = async (req, res, next) => {
       err.expose = true;
       throw err;
     }
+    const primaryCatId = product.categories?.[0]?._id;
     const related = await Product.find({
-      category: product.category._id,
+      categories: primaryCatId,
       _id: { $ne: product._id },
       isActive: true,
     })
       .limit(4)
-      .populate('category', 'name slug');
+      .populate('categories', 'name slug');
     res.json({ product, related });
   } catch (err) {
     next(err);

@@ -6,6 +6,7 @@ import { Order } from '../../core/models';
 import { VndPipe } from '../../shared/pipes/vnd.pipe';
 import { EmptyStateComponent } from '../../shared/components/empty-state/empty-state.component';
 import { PackageIconComponent } from '../../shared/icons/package-icon.component';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 @Component({
   selector: 'app-orders',
@@ -16,6 +17,7 @@ import { PackageIconComponent } from '../../shared/icons/package-icon.component'
     VndPipe,
     EmptyStateComponent,
     PackageIconComponent,
+    StarButtonDirective,
   ],
   template: `
     <div class="container-app py-lg">
@@ -24,7 +26,7 @@ import { PackageIconComponent } from '../../shared/icons/package-icon.component'
         <p class="text-body-md text-on-surface-variant">Đang tải...</p>
       } @else if (orders().length === 0) {
         <app-empty-state title="Chưa có đơn hàng nào" message="Hãy bắt đầu hành trình chăm sóc da với những sản phẩm Calista.">
-          <a routerLink="/san-pham" class="btn-primary mt-md">Mua sắm ngay</a>
+          <a routerLink="/san-pham" class="btn-primary mt-md" appStarBtn>Mua sắm ngay</a>
         </app-empty-state>
       } @else {
         <div class="space-y-md">

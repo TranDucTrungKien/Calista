@@ -210,6 +210,63 @@ export const routes: Routes = [
           },
         ],
       },
+      {
+        path: 'shopee',
+        loadComponent: () =>
+          import('./features/admin/shopee/shopee-layout.component').then(
+            (m) => m.ShopeeLayoutComponent
+          ),
+        children: [
+          {
+            path: '',
+            loadComponent: () =>
+              import('./features/admin/shopee/shopee-connect.component').then(
+                (m) => m.ShopeeConnectComponent
+              ),
+            title: 'Shopee — Kết nối',
+          },
+          {
+            path: 'token',
+            loadComponent: () =>
+              import('./features/admin/shopee/shopee-token-health.component').then(
+                (m) => m.ShopeeTokenHealthComponent
+              ),
+            title: 'Shopee — Token',
+          },
+          {
+            path: 'san-pham',
+            loadComponent: () =>
+              import('./features/admin/shopee/shopee-products.component').then(
+                (m) => m.ShopeeProductsComponent
+              ),
+            title: 'Shopee — Sản phẩm',
+          },
+          {
+            path: 'don-hang',
+            loadComponent: () =>
+              import('./features/admin/shopee/shopee-orders.component').then(
+                (m) => m.ShopeeOrdersComponent
+              ),
+            title: 'Shopee — Đơn hàng',
+          },
+          {
+            path: 'dong-bo',
+            loadComponent: () =>
+              import('./features/admin/shopee/shopee-sync.component').then(
+                (m) => m.ShopeeSyncComponent
+              ),
+            title: 'Shopee — Đồng bộ',
+          },
+          {
+            path: 'nhat-ky',
+            loadComponent: () =>
+              import('./features/admin/shopee/shopee-logs.component').then(
+                (m) => m.ShopeeLogsComponent
+              ),
+            title: 'Shopee — Nhật ký',
+          },
+        ],
+      },
     ],
   },
   { path: '**', redirectTo: '' },

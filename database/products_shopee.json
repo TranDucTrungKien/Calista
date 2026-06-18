@@ -1,0 +1,2096 @@
+[
+  {
+    "_id": "bb85d17f996209d3e1c61ac6",
+    "sku": "CAL-TTR-008",
+    "name": "Dầu Tẩy Trang Calista Dừa 300ml Tẩy Trang Dịu Nhẹ Dưỡng Ẩm",
+    "slug": "dau-tay-trang-calista-dua-300ml-tay-trang-diu-nhe-duong-am",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Dầu Tẩy Trang Calista Dừa mang đến trải nghiệm làm sạch êm dịu, giúp loại bỏ lớp trang điểm, kem chống nắng và bụi bẩn một cách nhẹ nhàng mà không gây khô căng da. Công thức giàu dưỡng chất từ dầu dừa thiên nhiên hỗ trợ cấp ẩm tức thì, giúp da mềm mại sau mỗi lần làm sạch.",
+    "ingredients": "Dầu Dừa, Vitamin E, Glycerin",
+    "howToUse": "Lấy lượng dầu vừa đủ ra lòng bàn tay Thoa đều lên mặt khô hoặc ẩm, massage nhẹ nhàng theo chuyển động tròn Làm ẩm tay rồi massage thêm để nhũ hóa dầu Rửa sạch với nước ấm, có thể dùng sữa rửa mặt bước 2",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Dừa_300ml_fmd0ig.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Dừa_300ml_rg7w6i.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da khô",
+      "da thường",
+      "da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "34fd6f8ddc4fc85cb4754b36",
+    "sku": "CAL-TTR-009",
+    "name": "Dầu Tẩy Trang Calista Hướng Dương 300ml Làm Sạch Da Không Khô Căng",
+    "slug": "dau-tay-trang-calista-huong-duong-300ml-lam-sach-da-khong-kho-cang",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Dầu Tẩy Trang Calista Hướng Dương với công thức nhẹ dịu từ dầu hoa hướng dương, giúp hòa tan lớp trang điểm và bụi bẩn hiệu quả mà không để lại cảm giác bết rít. Sản phẩm phù hợp cho cả da dầu và da hỗn hợp nhờ kết cấu thanh nhẹ, dễ trôi.",
+    "ingredients": "Dầu Hướng Dương, Vitamin E, Chiết xuất thực vật",
+    "howToUse": "Lấy lượng dầu vừa đủ ra lòng bàn tay (3-4 lần bơm) Thoa lên mặt khô, massage nhẹ nhàng để hòa tan lớp trang điểm Làm ẩm tay, tiếp tục massage để nhũ hóa Rửa sạch với nước ấm, tiếp tục với sữa rửa mặt nếu cần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Hướng_Dương_300ml_otbdyc.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Hướng_Dương_300ml_rvhsmo.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da thường"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "c775db9c02370809009755af",
+    "sku": "CAL-TTR-006",
+    "name": "Dầu Tẩy Trang Calista Jojoba 300ml Làm Sạch Makeup Dưỡng Ẩm",
+    "slug": "dau-tay-trang-calista-jojoba-300ml-lam-sach-makeup-duong-am",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Dầu Tẩy Trang Calista Jojoba kết hợp sức mạnh làm sạch hiệu quả với khả năng dưỡng ẩm vượt trội từ dầu jojoba – loại dầu có cấu trúc gần giống với dầu bã nhờn tự nhiên của da. Sản phẩm hỗ trợ làm tan lớp makeup dày mà không gây kích ứng.",
+    "ingredients": "Dầu Jojoba, Squalane, Chiết xuất thực vật",
+    "howToUse": "Lấy lượng dầu vừa đủ ra lòng bàn tay Thoa lên mặt khô, massage nhẹ nhàng để hòa tan lớp makeup Nhỏ vài giọt nước lên tay, massage thêm để nhũ hóa dầu Rửa sạch với nước, tiếp tục với bước sữa rửa mặt",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Jojoba_300ml_dnlhus.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Jojoba_300ml_xeyetb.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt phù hợp da khô và da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "85313b7cc578b9f3954dd309",
+    "sku": "CAL-TTR-007",
+    "name": "Dầu Tẩy Trang Calista Olive 300ml Làm Sạch Sâu Mềm Da",
+    "slug": "dau-tay-trang-calista-olive-300ml-lam-sach-sau-mem-da",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Dầu Tẩy Trang Calista Olive được chiết xuất từ dầu ô liu nguyên chất, hỗ trợ làm sạch tận sâu lớp trang điểm và bụi bẩn trong lỗ chân lông. Công thức giàu dưỡng chất giúp da trông mềm mại, mịn màng sau mỗi lần tẩy trang.",
+    "ingredients": "Dầu Ô Liu, Squalane, Vitamin E",
+    "howToUse": "Lấy lượng dầu vừa đủ (3-5 lần bơm) ra lòng bàn tay Thoa đều lên mặt khô, massage theo vòng tròn từ trong ra ngoài Thêm vài giọt nước, tiếp tục massage để nhũ hóa Rửa sạch với nước ấm, dùng tiếp sữa rửa mặt nếu cần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Olive_300ml_lbtynn.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Dầu_tẩy_trang_Calista_Olive_300ml_lto89w.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da khô",
+      "da thường",
+      "da lão hóa"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "560cf35a744978a0b4498aee",
+    "sku": "CAL-NCB-002",
+    "name": "Essence Toner Calista Lô Hội 300ml Cấp Ẩm Làm Dịu Da",
+    "slug": "essence-toner-calista-lo-hoi-300ml-cap-am-lam-diu-da",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Essence Toner Calista Lô Hội kết hợp giữa toner và essence trong một sản phẩm, giúp cấp ẩm tức thì và làm dịu da hiệu quả. Kết cấu lỏng nhẹ thấm nhanh, hỗ trợ chuẩn bị cho da hấp thu tốt hơn các bước dưỡng da tiếp theo.",
+    "ingredients": "Chiết Xuất Lô Hội, Hyaluronic Acid, Panthenol",
+    "howToUse": "Dùng sau bước làm sạch da Thấm sản phẩm lên bông tẩy trang hoặc đổ ra lòng bàn tay Vỗ nhẹ lên da mặt, cổ và vùng cần cấp ẩm Tiếp tục với serum và kem dưỡng",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Essence_Toner_Calista_Lô_Hội_300ml_a0k8ei.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Essence_Toner_Calista_Lô_Hội_300ml_rrdl0s.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4605",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da khô và da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "1e58e1f0b967f869615e4340",
+    "sku": "CAL-TRM-001",
+    "name": "Gel Chấm Mụn Calista Tràm Trà 20g Hỗ Trợ Giảm Mụn Khô Cồi",
+    "slug": "gel-cham-mun-calista-tram-tra-20g-ho-tro-giam-mun-kho-coi",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Gel Chấm Mụn Calista Tràm Trà với nồng độ tinh chất tràm trà đậm đặc, hỗ trợ cải thiện mụn nhanh chóng và giúp mụn khô cồi hiệu quả hơn. Kết cấu gel trong suốt, chấm trực tiếp lên nốt mụn, không gây bết dính.",
+    "ingredients": "Tinh Dầu Tràm Trà, Salicylic Acid, Niacinamide",
+    "howToUse": "Làm sạch và lau khô da Dùng tăm bông hoặc ngón tay sạch lấy lượng nhỏ gel Chấm trực tiếp lên nốt mụn, tránh vùng da lành xung quanh Để yên, không rửa trôi. Dùng 1-2 lần/ngày",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_chấm_mụn_Calista_Tràm_Trà_20g_u5ovml.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_chấm_mụn_Calista_Tràm_Trà_20g_q39qko.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Da mụn",
+      "da dầu",
+      "da hỗn hợp"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "4b18dc7d28145017f52f37b3",
+    "sku": "CAL-DDA-002",
+    "name": "Gel Dưỡng Ẩm Calista Lô Hội 20g Cấp Nước Làm Dịu Da",
+    "slug": "gel-duong-am-calista-lo-hoi-20g-cap-nuoc-lam-diu-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Gel Dưỡng Ẩm Calista Lô Hội với kết cấu gel trong nhẹ, thấm nhanh vào da mà không gây bít lỗ chân lông. Sản phẩm hỗ trợ cấp nước tức thì và giúp da trông dịu mát, mềm mịn ngay sau lần sử dụng đầu tiên.",
+    "ingredients": "Chiết Xuất Lô Hội, Hyaluronic Acid, Centella Asiatica",
+    "howToUse": "Làm sạch da kỹ lưỡng Lấy lượng gel vừa đủ ra đầu ngón tay Thoa đều lên mặt và vùng cổ, massage nhẹ nhàng Để thấm tự nhiên, có thể dùng làm bước dưỡng ẩm cuối hoặc lớp dưỡng nhẹ ban ngày",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_dưỡng_ẩm_Calista_Lô_Hội_20g_sxpg2q.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_dưỡng_ẩm_Calista_Lô_Hội_20g_nmzbxd.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4627",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da dầu và da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "0414c36fef74233a4bf4b283",
+    "sku": "CAL-KHC-001",
+    "name": "Gel Giảm Thâm Calista Cam 20g Mờ Thâm Sáng Da",
+    "slug": "gel-giam-tham-calista-cam-20g-mo-tham-sang-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Gel Giảm Thâm Calista Cam chứa tinh chất từ cam tươi giàu Vitamin C tự nhiên, hỗ trợ giúp làm mờ vết thâm và cải thiện sắc da sau quá trình sử dụng đều đặn. Kết cấu gel nhẹ dễ thấm, không gây nhờn bóng.",
+    "ingredients": "Chiết Xuất Cam, Niacinamide, Alpha Arbutin",
+    "howToUse": "Làm sạch da, dùng sau bước toner Lấy lượng nhỏ gel, chấm lên vùng thâm cần cải thiện Massage nhẹ nhàng theo chuyển động tròn cho thấm Tiếp tục với kem dưỡng. Dùng buổi tối cho hiệu quả tốt hơn",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_giảm_thâm_Calista_Cam_20g_rbz1fw.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_giảm_thâm_Calista_Cam_20g_hmlhfb.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Mọi loại da có vết thâm",
+      "đốm nâu"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "0922ea3730083a434e903836",
+    "sku": "CAL-SRM-006",
+    "name": "Gel Rửa Mặt Calista Dưa Leo 250ml Làm Mát Da Cấp Nước Dịu Nhẹ",
+    "slug": "gel-rua-mat-calista-dua-leo-250ml-lam-mat-da-cap-nuoc-diu-nhe",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Gel Rửa Mặt Calista Dưa Leo với kết cấu gel trong mát lạnh, tạo bọt mịn nhẹ nhàng làm sạch da mà không gây khô căng hay kích ứng. Chiết xuất dưa leo tươi mát hỗ trợ cấp nước và mang lại cảm giác dịu mát tức thì.",
+    "ingredients": "Chiết Xuất Dưa Leo, Allantoin, Glycerin",
+    "howToUse": "Làm ướt da mặt bằng nước ấm hoặc nước mát Lấy lượng gel bằng đồng xu ra lòng bàn tay Tạo bọt và massage nhẹ nhàng lên mặt theo chuyển động tròn 30-60 giây Rửa sạch với nước mát. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_rửa_mặt_Calista_Dưa_Leo_Làm_Mát_Da_250ml_vdhpjd.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Gel_rửa_mặt_Calista_Dưa_Leo_Làm_Mát_Da_250ml_qew7s7.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da nhạy cảm và da thường"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "3fab66f3c401b5d20be16289",
+    "sku": "CAL-KDA-002",
+    "name": "Kem Dưỡng Calista Bơ Hạt Mỡ 100g Cho Da Khô Dưỡng Ẩm Sâu",
+    "slug": "kem-duong-calista-bo-hat-mo-100g-cho-da-kho-duong-am-sau",
+    "price": 109000,
+    "comparePrice": 0,
+    "description": "Kem Dưỡng Calista Bơ Hạt Mỡ được bào chế từ bơ hạt mỡ nguyên chất, cung cấp lớp dưỡng ẩm dày dặn và bền lâu cho da khô. Công thức đặc biệt giúp da trông mềm mịn, đàn hồi và bớt khô ráp sau quá trình sử dụng đều đặn.",
+    "ingredients": "Bơ Hạt Mỡ, Vitamin E, Allantoin",
+    "howToUse": "Làm sạch da và dùng toner trước Lấy lượng kem vừa đủ ra đầu ngón tay Thoa đều lên mặt và cổ, massage nhẹ nhàng theo hướng lên trên Dùng sáng và tối sau các bước dưỡng da cơ bản",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Da_Khô_Bơ_Hạt_Mỡ_100g_hisc6v.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Da_Khô_Bơ_Hạt_Mỡ_100g_eri424.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4627",
+    "skinTypes": [
+      "Da khô",
+      "da rất khô",
+      "da lão hóa"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "04dc46b54c7f249a52722b83",
+    "sku": "CAL-KDA-001",
+    "name": "Kem Dưỡng Calista Jojoba 100g Cho Da Dầu Kiềm Dầu Dưỡng Ẩm",
+    "slug": "kem-duong-calista-jojoba-100g-cho-da-dau-kiem-dau-duong-am",
+    "price": 109000,
+    "comparePrice": 0,
+    "description": "Kem Dưỡng Calista Jojoba có kết cấu nhẹ, không gây bít lỗ chân lông, phù hợp đặc biệt cho da dầu và da hỗn hợp. Dầu jojoba giúp hỗ trợ cân bằng bã nhờn và cung cấp độ ẩm cần thiết để da không bị kích thích sản xuất thêm dầu.",
+    "ingredients": "Dầu Jojoba, Niacinamide, Aloe Vera",
+    "howToUse": "Dùng sau bước toner và serum Lấy lượng nhỏ kem ra đầu ngón tay Chấm lên 5 điểm trên mặt rồi thoa đều ra Để thấm tự nhiên. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Da_Dầu_Jojoba_100g_cpesxq.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Da_Dầu_Jojoba_100g_a4xrdv.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4627",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da mụn"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "2d1990966a90fe811f7ea424",
+    "sku": "CAL-KDA-004",
+    "name": "Kem Dưỡng Calista Nha Đam 100g Làm Dịu Cấp Ẩm Da",
+    "slug": "kem-duong-calista-nha-dam-100g-lam-diu-cap-am-da",
+    "price": 109000,
+    "comparePrice": 0,
+    "description": "Kem Dưỡng Calista Nha Đam với công thức nhẹ nhàng từ nha đam tươi, giúp làm dịu da tức thì và cung cấp lớp ẩm bền lâu. Sản phẩm lý tưởng cho da nhạy cảm hoặc da đang cần phục hồi sau tác động từ môi trường.",
+    "ingredients": "Chiết Xuất Nha Đam, Hyaluronic Acid, Centella Asiatica",
+    "howToUse": "Dùng sau toner, serum Lấy lượng kem vừa đủ ra lòng bàn tay Thoa nhẹ nhàng lên mặt và vùng cổ Massage theo hướng lên trên cho thấm đều. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Nha_Đam_100g_izmurk.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Nha_Đam_100g_x2vytk.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4627",
+    "skinTypes": [
+      "Da nhạy cảm",
+      "da thường",
+      "da hỗn hợp"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "47471904b8b2aa1e197c8f8e",
+    "sku": "CAL-KDA-003",
+    "name": "Kem Dưỡng Calista Olive 100g Cho Da Khô Mềm Mịn Da",
+    "slug": "kem-duong-calista-olive-100g-cho-da-kho-mem-min-da",
+    "price": 109000,
+    "comparePrice": 0,
+    "description": "Kem Dưỡng Calista Olive với tinh chất từ dầu ô liu nguyên chất, cung cấp dưỡng chất phong phú giúp da khô trở nên mềm mịn và đàn hồi hơn. Công thức dưỡng ẩm lâu dài, giúp da không bị khô ráp trong suốt cả ngày.",
+    "ingredients": "Dầu Ô Liu, Squalane, Vitamin E",
+    "howToUse": "Làm sạch và dùng toner trước Lấy lượng kem vừa đủ ra đầu ngón tay Thoa đều khắp mặt và cổ, massage nhẹ nhàng Ưu tiên dùng buổi tối để da hấp thu tối đa",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Da_Khô_Olive_100g_gx53fk.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Kem_dưỡng_Calista_Da_Khô_Olive_100g_pauaua.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4627",
+    "skinTypes": [
+      "Da khô",
+      "da thường thiếu ẩm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "9da26a2c61b2f33654d445b6",
+    "sku": "CAL-MNK-014",
+    "name": "Mặt Nạ Calista Berry Đỏ 50ml Chống Oxy Hóa Sáng Da",
+    "slug": "mat-na-calista-berry-do-50ml-chong-oxy-hoa-sang-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Berry Đỏ chứa hỗn hợp chiết xuất từ các loại quả berry giàu antioxidant, hỗ trợ bảo vệ da khỏi tác hại của gốc tự do và giúp da trông sáng hơn, đều màu hơn sau mỗi lần sử dụng.",
+    "ingredients": "Chiết Xuất Berry Đỏ, Resveratrol, Vitamin C",
+    "howToUse": "Làm sạch da trước khi đắp mặt nạ Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Giữ 15-20 phút Rửa sạch với nước, tiếp tục với kem dưỡng. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Berry_Đỏ_50ml_e5i1zg.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Berry_Đỏ_50ml_j4wgwg.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da xỉn màu",
+      "thiếu sức sống"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "5d00d2175b28a75d2040010a",
+    "sku": "CAL-MNK-018",
+    "name": "Mặt Nạ Calista Bí Đao 200g Làm Dịu Giảm Dầu Da",
+    "slug": "mat-na-calista-bi-dao-200g-lam-diu-giam-dau-da",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Bí Đao với chiết xuất bí đao tươi mát, hỗ trợ làm dịu da hiệu quả và giúp cân bằng lượng dầu nhờn trên da. Công thức nhẹ nhàng phù hợp cả cho da nhạy cảm, giúp da trông sạch thoáng sau mỗi lần đắp.",
+    "ingredients": "Chiết Xuất Bí Đao, Kaolin Clay, Allantoin",
+    "howToUse": "Làm sạch da kỹ lưỡng Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Thư giãn trong 15-20 phút Rửa sạch với nước. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Bí_Đao_200g_bhhzot.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Bí_Đao_200g_ocztzr.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "a5d6450007b8b69a04e4460f",
+    "sku": "CAL-MNK-004",
+    "name": "Mặt Nạ Calista Cà Chua 50ml Dưỡng Sáng Da Mềm Mịn",
+    "slug": "mat-na-calista-ca-chua-50ml-duong-sang-da-mem-min",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Cà Chua giàu lycopene và vitamin từ cà chua tươi, hỗ trợ cải thiện sắc da và giúp da trông sáng hơn, đều màu hơn sau quá trình sử dụng đều đặn. Kết cấu mặt nạ mịn, dễ thoa và rửa trôi.",
+    "ingredients": "Chiết Xuất Cà Chua, Vitamin C, AHA tự nhiên",
+    "howToUse": "Làm sạch da Thoa đều mặt nạ lên mặt, tránh vùng mắt và môi Để 15-20 phút Rửa sạch bằng nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Cà_Chua_50ml_xxmmz0.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Cà_Chua_50ml_g3q996.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da thường và da dầu"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "e4f2a9fa196f5d00006521ab",
+    "sku": "CAL-MNK-016",
+    "name": "Mặt Nạ Calista Cam 50ml Dưỡng Sáng Mờ Xỉn Màu",
+    "slug": "mat-na-calista-cam-50ml-duong-sang-mo-xin-mau",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Cam với chiết xuất cam tươi giàu vitamin C tự nhiên, hỗ trợ cải thiện vết xỉn màu và giúp da trông sáng khỏe, tươi tắn hơn sau mỗi lần sử dụng. Hương thơm dịu nhẹ từ cam tạo cảm giác thư giãn dễ chịu.",
+    "ingredients": "Chiết Xuất Cam, Niacinamide, Glycerin",
+    "howToUse": "Làm sạch da kỹ lưỡng Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Để trong 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Cam_50ml_j90jzh.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Cam_50ml_xogj1t.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da xỉn màu và da cần dưỡng sáng"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "a1d6b44371ad3fe6cc920b7d",
+    "sku": "CAL-MNK-001",
+    "name": "Mặt Nạ Calista Chanh Vàng 50ml Dưỡng Sáng Da",
+    "slug": "mat-na-calista-chanh-vang-50ml-duong-sang-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Chanh Vàng chứa chiết xuất chanh vàng tươi với lượng vitamin C dồi dào, hỗ trợ làm tươi sáng làn da và giúp da trông rạng rỡ hơn. Công thức được cân chỉnh để vừa hiệu quả vừa dịu nhẹ với da.",
+    "ingredients": "Chiết Xuất Chanh Vàng, Alpha Arbutin, Glycerin",
+    "howToUse": "Làm sạch da sạch sẽ Thoa đều mặt nạ lên da mặt, tránh vùng mắt và môi Để 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Chanh_Vàng_50ml_z3kmyb.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Chanh_Vàng_50ml_niye9t.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da thường",
+      "da dầu",
+      "da hỗn hợp"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "d70b24db22b630feddb95f53",
+    "sku": "CAL-MNK-002",
+    "name": "Mặt Nạ Calista Dừa 50ml Dưỡng Ẩm Mềm Da",
+    "slug": "mat-na-calista-dua-50ml-duong-am-mem-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Dừa với chiết xuất dừa thuần khiết giàu axit béo và vitamin, hỗ trợ dưỡng ẩm sâu và giúp da trông mềm mịn, mướt mát hơn sau mỗi lần đắp. Công thức đặc biệt dịu nhẹ phù hợp cả da nhạy cảm.",
+    "ingredients": "Chiết Xuất Dừa, Vitamin E, Glycerin",
+    "howToUse": "Làm sạch da trước Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Thư giãn trong 15-20 phút Rửa sạch bằng nước, tiếp tục với kem dưỡng. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Dừa_50ml_tchtp7.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Dừa_50ml_fvymjm.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da khô",
+      "da thường",
+      "da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "bc0e780fc28dd4adb6e28dad",
+    "sku": "CAL-MNK-008",
+    "name": "Mặt Nạ Calista Dưa Leo 50ml Làm Mát Cấp Nước Da",
+    "slug": "mat-na-calista-dua-leo-50ml-lam-mat-cap-nuoc-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Dưa Leo mang lại cảm giác mát lạnh, tươi mát tức thì ngay khi đắp lên da. Chiết xuất dưa leo giàu nước và khoáng chất hỗ trợ cấp ẩm nhanh chóng, giúp da trông tươi mát và dịu nhẹ hơn.",
+    "ingredients": "Chiết Xuất Dưa Leo, Hyaluronic Acid, Allantoin",
+    "howToUse": "Làm sạch da Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Thư giãn 15-20 phút (có thể đặt vào tủ lạnh trước để tăng cảm giác mát) Rửa sạch với nước mát. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Dưa_Leo_50ml_wzrsfm.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Dưa_Leo_50ml_bmw4ps.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da khô và da mất nước"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "daeb8b2de2be9fb61c3b296e",
+    "sku": "CAL-MNK-009",
+    "name": "Mặt Nạ Calista Gạo 50ml Dưỡng Sáng Da",
+    "slug": "mat-na-calista-gao-50ml-duong-sang-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Gạo lấy cảm hứng từ bí quyết dưỡng da truyền thống với nước gạo và tinh chất gạo, hỗ trợ giúp da trông sáng đều và mềm mịn hơn sau mỗi lần sử dụng. Công thức dịu nhẹ phù hợp cả da nhạy cảm.",
+    "ingredients": "Chiết Xuất Gạo, Inositol từ gạo, Glycerin",
+    "howToUse": "Làm sạch da kỹ lưỡng Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Để yên 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Gạo_50ml_qvvrua.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Gạo_50ml_syjqox.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "5f38e58e2b25ae01dc67294c",
+    "sku": "CAL-MNK-011",
+    "name": "Mặt Nạ Calista Hoa Hồng 50ml Dưỡng Ẩm Mềm Da",
+    "slug": "mat-na-calista-hoa-hong-50ml-duong-am-mem-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Hoa Hồng với hương thơm dịu dàng từ hoa hồng tươi, hỗ trợ cấp ẩm và làm mềm da hiệu quả. Sản phẩm mang lại trải nghiệm spa tại nhà sang trọng, giúp da trông mướt mát và rạng rỡ hơn.",
+    "ingredients": "Chiết Xuất Hoa Hồng, Nước Hoa Hồng, Hyaluronic Acid",
+    "howToUse": "Làm sạch da Thoa đều lớp mặt nạ lên mặt, tránh vùng mắt và môi Thư giãn 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Hoa_Hồng_50ml_bpvjqe.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Hoa_Hồng_50ml_uvtkj9.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "8c39057c651b6453d703e7b5",
+    "sku": "CAL-MNK-012",
+    "name": "Mặt Nạ Calista Mật Ong Vegan 50ml Dưỡng Ẩm Phục Hồi Da",
+    "slug": "mat-na-calista-mat-ong-vegan-50ml-duong-am-phuc-hoi-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Mật Ong Vegan sử dụng chiết xuất mật ong thực vật thuần chay, giữ nguyên các dưỡng chất tốt cho da mà không có thành phần động vật. Sản phẩm hỗ trợ dưỡng ẩm sâu và phục hồi da sau những ngày da mệt mỏi, thiếu sức sống.",
+    "ingredients": "Thương hiệu, Xuất xứ, Dung tích, Loại da phù hợp, Hạn sử dụng, Chiết Xuất Mật Ong Thực Vật, Beta-Glucan, Panthenol",
+    "howToUse": "Làm sạch da kỹ lưỡng Thoa đều mặt nạ lên mặt, tránh vùng mắt và môi Để yên 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Mật_Ong_Vegan_50ml_uk0u5m.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Mật_Ong_Vegan_50ml_ecmyud.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da",
+      "thân thiện với người theo lối sống vegan"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "6fadace1a2a079e86e194d9e",
+    "sku": "CAL-MNK-020",
+    "name": "Mặt Nạ Calista Nghệ 200g Dưỡng Sáng Hỗ Trợ Mờ Thâm",
+    "slug": "mat-na-calista-nghe-200g-duong-sang-ho-tro-mo-tham",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Nghệ kết hợp tinh chất curcumin từ nghệ tươi với các thành phần dưỡng da, hỗ trợ cải thiện sắc da và giúp làm mờ vết thâm sau quá trình sử dụng đều đặn. Sản phẩm phù hợp cho da cần cải thiện tông màu không đều.",
+    "ingredients": "Thương hiệu, Xuất xứ, Khối lượng, Loại da phù hợp, Hạn sử dụng, Chiết Xuất Nghệ, Curcumin, Niacinamide",
+    "howToUse": "Làm sạch da Thoa đều mặt nạ lên mặt, tránh vùng mắt và môi Để 15-20 phút Rửa sạch kỹ với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Nghệ_200g_fsk0pd.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Nghệ_200g_cio9t3.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da có vết thâm",
+      "da xỉn màu"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "42636cb6e6d532c1bf983665",
+    "sku": "CAL-MNK-019",
+    "name": "Mặt Nạ Calista Nha Đam 200g Cấp Ẩm Làm Dịu Da",
+    "slug": "mat-na-calista-nha-dam-200g-cap-am-lam-diu-da",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Nha Đam 200g với lượng gel nha đam dồi dào, hỗ trợ cấp ẩm mạnh mẽ và làm dịu da hiệu quả chỉ sau 15-20 phút đắp mặt nạ. Sản phẩm đặc biệt phù hợp cho da khô và da nhạy cảm cần bổ sung ẩm.",
+    "ingredients": "Gel Nha Đam, Hyaluronic Acid, Allantoin",
+    "howToUse": "Làm sạch da kỹ lưỡng Thoa đều lớp mặt nạ dày lên mặt, tránh mắt và môi Thư giãn 15-20 phút Rửa sạch với nước mát. Dùng 3-4 lần/tuần nếu da khô nhiều",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Nha_Đam_200g_sdm04q.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Nha_Đam_200g_nrvpvz.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da khô",
+      "da nhạy cảm",
+      "da mất nước"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "327f3cdeb0133a7412ff25f1",
+    "sku": "CAL-MNK-005",
+    "name": "Mặt Nạ Calista Than Tre 50ml Làm Sạch Dầu Thừa",
+    "slug": "mat-na-calista-than-tre-50ml-lam-sach-dau-thua",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Than Tre với than hoạt tính từ tre, hỗ trợ hút sạch dầu thừa và tạp chất trong lỗ chân lông, giúp da trông sạch thoáng và ít nhờn hơn sau mỗi lần đắp. Phù hợp cho da dầu và da hỗn hợp vùng chữ T nhiều dầu.",
+    "ingredients": "Than Tre Hoạt Tính, Kaolin Clay, Witch Hazel",
+    "howToUse": "Làm sạch da trước Thoa đều lớp mặt nạ lên vùng da cần làm sạch Để yên 15-20 phút, không để khô hoàn toàn Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Than_Tre_50ml_jlvtvo.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Than_Tre_50ml_dj3h3m.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da bị bít lỗ chân lông"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "9da8ead0ffeb4a3649c674d3",
+    "sku": "CAL-MNK-015",
+    "name": "Mặt Nạ Calista Trà Xanh 50ml Kiềm Dầu Làm Dịu Da",
+    "slug": "mat-na-calista-tra-xanh-50ml-kiem-dau-lam-diu-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Trà Xanh kết hợp sức mạnh chống oxy hóa từ EGCG trong trà xanh với khả năng làm dịu da, hỗ trợ cân bằng lượng dầu nhờn và mang lại cảm giác da sạch, thoáng mát sau mỗi lần đắp.",
+    "ingredients": "Chiết Xuất Trà Xanh, Kaolin Clay, Allantoin",
+    "howToUse": "Làm sạch da Thoa đều mặt nạ lên mặt Để 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Trà_xanh_50ml_are7xo.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Trà_xanh_50ml_lubmpu.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "ec68691a05ab96737e40cc21",
+    "sku": "CAL-MNK-010",
+    "name": "Mặt Nạ Calista Tràm Trà 50ml Hỗ Trợ Giảm Mụn Kiềm Dầu",
+    "slug": "mat-na-calista-tram-tra-50ml-ho-tro-giam-mun-kiem-dau",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Tràm Trà với tinh dầu tràm trà nổi tiếng trong việc chăm sóc da mụn, hỗ trợ kiềm chế dầu nhờn và cải thiện tình trạng da mụn sau quá trình sử dụng đều đặn. Công thức dịu nhẹ, không gây kích ứng quá mức.",
+    "ingredients": "Tinh Dầu Tràm Trà, Kaolin Clay, Salicylic Acid",
+    "howToUse": "Làm sạch da Thoa đều lớp mặt nạ, đặc biệt lên vùng da nhiều mụn Để 15-20 phút Rửa sạch với nước ấm. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Tràm_Trà_50ml_zwbxnt.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Tràm_Trà_50ml_dsf1g4.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da mụn",
+      "da dầu",
+      "da hỗn hợp"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d2c4732179451685c29a5",
+    "sku": "CAL-MNK-007",
+    "name": "Mặt Nạ Calista Yến Mạch 50ml Dưỡng Ẩm Dịu Nhẹ",
+    "slug": "mat-na-calista-yen-mach-50ml-duong-am-diu-nhe",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Calista Yến Mạch với chiết xuất bột yến mạch mịn, cung cấp dưỡng ẩm nhẹ nhàng và làm dịu da hiệu quả. Đây là lựa chọn lý tưởng cho da nhạy cảm dễ kích ứng, giúp da trông mềm mại và ít đỏ hơn sau sử dụng.",
+    "ingredients": "Chiết Xuất Yến Mạch, Beta-Glucan từ yến mạch, Glycerin",
+    "howToUse": "Làm sạch da Thoa đều mặt nạ lên mặt, tránh vùng mắt và môi Để yên 15-20 phút Rửa sạch với nước mát. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Yến_Mạch_50ml_mfxyap.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_Calista_Yến_Mạch_50ml_cuzacg.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da nhạy cảm",
+      "da khô",
+      "da dễ kích ứng"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "1d418220236157941c0513aa",
+    "sku": "CAL-MNK-017",
+    "name": "Mặt Nạ Đất Sét Calista 200g Làm Sạch Sâu Kiềm Dầu",
+    "slug": "mat-na-dat-set-calista-200g-lam-sach-sau-kiem-dau",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Đất Sét Calista với công thức đất sét kaolin và bentonite, hỗ trợ làm sạch sâu lỗ chân lông và hút dầu thừa hiệu quả. Sản phẩm giúp da trông sạch thoáng, ít bóng nhờn và lỗ chân lông trông gọn hơn sau mỗi lần đắp.",
+    "ingredients": "Đất Sét Kaolin, Bentonite, Chiết Xuất Thực Vật",
+    "howToUse": "Làm sạch da và làm ẩm nhẹ trước Thoa đều lớp đất sét dày lên mặt, tránh mắt và môi Để 10-15 phút (không để đến khô hoàn toàn) Rửa sạch với nước ấm. Dùng 2 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_đất_sét_Calista_200g_yyp2hj.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_đất_sét_Calista_200g_crmobe.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da bít lỗ chân lông"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "bd2e93bf9441b93a698ebaa6",
+    "sku": "CAL-MNK-003",
+    "name": "Mặt Nạ Giấy Calista Lô Hội 50ml Cấp Nước Làm Dịu Da",
+    "slug": "mat-na-giay-calista-lo-hoi-50ml-cap-nuoc-lam-diu-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Giấy Calista Lô Hội với tấm sheet mask được thấm đẫm tinh chất lô hội, cấp nước và làm dịu da nhanh chóng chỉ sau 20 phút đắp. Tiện lợi sử dụng hàng ngày, giúp da trông tươi mát và căng mọng ngay tức thì.",
+    "ingredients": "Chiết Xuất Lô Hội, Hyaluronic Acid, Panthenol",
+    "howToUse": "Làm sạch da trước khi đắp Lấy sheet mask ra và trải đều lên mặt Để yên 15-20 phút Gỡ mặt nạ, vỗ nhẹ phần tinh chất còn lại thấm vào da. Không cần rửa lại",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_giấy_Calista_Lô_Hội_Cấp_Nước_50ml_lvazyb.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_giấy_Calista_Lô_Hội_Cấp_Nước_50ml_zxpypc.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "1b01afa435cabdfc7a9b3a6e",
+    "sku": "CAL-MNK-013",
+    "name": "Mặt Nạ Ngủ Calista Lavender 50ml Thư Giãn Dưỡng Ẩm Da",
+    "slug": "mat-na-ngu-calista-lavender-50ml-thu-gian-duong-am-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Mặt Nạ Ngủ Calista Lavender được thiết kế để dùng qua đêm, giúp da hấp thu dưỡng chất tối đa trong khi bạn ngủ. Hương lavender dịu nhẹ mang lại cảm giác thư giãn, giúp ngủ ngon hơn trong khi da được phục hồi và dưỡng ẩm suốt đêm.",
+    "ingredients": "Tinh Dầu Lavender, Hyaluronic Acid, Niacinamide",
+    "howToUse": "Làm sạch da và hoàn tất các bước dưỡng da tối Thoa lớp mỏng mặt nạ ngủ lên mặt là bước cuối cùng Để qua đêm, không cần rửa lại Sáng hôm sau rửa mặt bình thường. Dùng 3-4 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_ngủ_Calista_Lavender_50ml_nqr5c9.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Mặt_nạ_ngủ_Calista_Lavender_50ml_udmfhi.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "15541e1400568fc993eb1684",
+    "sku": "CAL-TTR-004",
+    "name": "Nước Tẩy Trang Calista Gạo Lên Men 500ml Dưỡng Sáng Da Dịu Nhẹ",
+    "slug": "nuoc-tay-trang-calista-gao-len-men-500ml-duong-sang-da-diu-nhe",
+    "price": 199000,
+    "comparePrice": 0,
+    "description": "Nước Tẩy Trang Calista Gạo Lên Men ứng dụng công nghệ lên men gạo truyền thống từ Nhật Bản, giúp làm sạch da nhẹ nhàng đồng thời cung cấp các dưỡng chất quý giá từ quá trình lên men. Da trông sáng khỏe và mịn màng hơn sau mỗi lần tẩy trang.",
+    "ingredients": "Nước Gạo Lên Men, Galactomyces, Glycerin",
+    "howToUse": "Thấm sản phẩm vào bông tẩy trang Lau nhẹ nhàng toàn bộ khuôn mặt theo chiều ngoài vào trong Lau kỹ vùng mắt và môi với lực nhẹ hơn Không cần rửa lại. Tiếp tục với sữa rửa mặt nếu dùng makeup nặng",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Gạo_Lên_Men_500ml_gohak6.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Gạo_Lên_Men_500ml_xvojtf.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "fed34d9604868c18f003e972",
+    "sku": "CAL-TTR-001",
+    "name": "Nước Tẩy Trang Calista Hoa Hồng Chanh 500ml Sạch Makeup Sáng Da",
+    "slug": "nuoc-tay-trang-calista-hoa-hong-chanh-500ml-sach-makeup-sang-da",
+    "price": 199000,
+    "comparePrice": 0,
+    "description": "Nước Tẩy Trang Calista Hoa Hồng Chanh kết hợp hai nguyên liệu nổi tiếng trong làm đẹp: nước hoa hồng dưỡng ẩm và vitamin C từ chanh sáng da, giúp làm sạch lớp trang điểm hiệu quả mà vẫn dưỡng ẩm và cải thiện sắc da sau mỗi lần dùng.",
+    "ingredients": "Nước Hoa Hồng, Chiết Xuất Chanh, Glycerin",
+    "howToUse": "Thấm sản phẩm vào bông tẩy trang Lau nhẹ nhàng lên toàn mặt để làm tan lớp trang điểm Lặp lại nếu cần với lớp makeup dày Tiếp tục với sữa rửa mặt. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Hoa_Hồng_Chanh_500ml_yfu8p4.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Hoa_Hồng_Chanh_500ml_oplgzs.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "8a3b4f68649ad6e6c80e7958",
+    "sku": "CAL-TTR-002",
+    "name": "Nước Tẩy Trang Calista Rau Má 500ml Làm Dịu Da Hỗ Trợ Giảm Mụn",
+    "slug": "nuoc-tay-trang-calista-rau-ma-500ml-lam-diu-da-ho-tro-giam-mun",
+    "price": 199000,
+    "comparePrice": 0,
+    "description": "Nước Tẩy Trang Calista Rau Má với chiết xuất rau má (centella asiatica) nổi tiếng, hỗ trợ làm dịu da và cải thiện tình trạng da mụn sau quá trình sử dụng đều đặn. Công thức nhẹ nhàng, phù hợp cả da nhạy cảm.",
+    "ingredients": "Chiết Xuất Rau Má, Madecassoside, Allantoin",
+    "howToUse": "Thấm sản phẩm ra bông tẩy trang Lau nhẹ nhàng toàn bộ mặt, đặc biệt vùng cần cải thiện Lau thêm lần nữa nếu còn sót makeup Tiếp tục với sữa rửa mặt nếu cần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Rau_Má_500ml_ica3v8.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Rau_Má_500ml_jtobnr.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da mụn",
+      "da nhạy cảm",
+      "mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "fb20b6f3cb072c639b69bc2b",
+    "sku": "CAL-TTR-003",
+    "name": "Nước Tẩy Trang Calista Tràm Trà 500ml Kiềm Dầu Hỗ Trợ Giảm Mụn",
+    "slug": "nuoc-tay-trang-calista-tram-tra-500ml-kiem-dau-ho-tro-giam-mun",
+    "price": 199000,
+    "comparePrice": 0,
+    "description": "Nước Tẩy Trang Calista Tràm Trà với tinh chất tràm trà đậm đặc, hỗ trợ kiềm chế dầu nhờn và cải thiện tình trạng da mụn hiệu quả sau quá trình dùng đều đặn. Đây là lựa chọn lý tưởng cho da dầu và da hỗn hợp nhiều mụn.",
+    "ingredients": "Tinh Dầu Tràm Trà, Witch Hazel, Glycerin",
+    "howToUse": "Thấm sản phẩm vào bông tẩy trang Lau nhẹ nhàng lên toàn mặt Lặp lại nếu cần Tiếp tục với sữa rửa mặt. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Tràm_Trà_500ml_zdan1m.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Tràm_Trà_500ml_ioxsi3.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da mụn"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "1a61df661714e1e59b290f8a",
+    "sku": "CAL-TTR-005",
+    "name": "Nước Tẩy Trang Calista Vitamin B5 500ml Cấp Ẩm Phục Hồi Da",
+    "slug": "nuoc-tay-trang-calista-vitamin-b5-500ml-cap-am-phuc-hoi-da",
+    "price": 199000,
+    "comparePrice": 0,
+    "description": "Nước Tẩy Trang Calista Vitamin B5 kết hợp làm sạch dịu nhẹ với khả năng cấp ẩm và phục hồi da từ panthenol (vitamin B5). Sản phẩm giúp da trông mềm mịn và khỏe mạnh hơn ngay cả sau bước làm sạch.",
+    "ingredients": "Panthenol, Hyaluronic Acid, Allantoin",
+    "howToUse": "Thấm sản phẩm ra bông tẩy trang Lau nhẹ nhàng lên toàn bộ mặt Lặp lại cho đến khi bông sạch Tiếp tục với sữa rửa mặt nếu cần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Vitamin_B5_500ml_bjfqhf.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Nước_tẩy_trang_Calista_Vitamin_B5_500ml_vmqrie.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da khô",
+      "da nhạy cảm",
+      "da mất nước"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "ed86698b94a01223f678d96f",
+    "sku": "CAL-SER-007",
+    "name": "Serum Calista Hyaluronic Acid 50ml Cấp Nước Căng Bóng Da",
+    "slug": "serum-calista-hyaluronic-acid-50ml-cap-nuoc-cang-bong-da",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Hyaluronic Acid với nồng độ HA đa trọng lượng phân tử, hỗ trợ cấp ẩm từ bề mặt đến các tầng sâu của da, giúp da trông căng mọng, bóng khỏe và giảm cảm giác khô ráp sau quá trình sử dụng đều đặn.",
+    "ingredients": "Hyaluronic Acid đa trọng lượng phân tử, Sodium Hyaluronate, Panthenol",
+    "howToUse": "Làm sạch da và dùng toner trước Lấy 3-5 giọt serum ra lòng bàn tay Vỗ nhẹ lên da mặt và cổ, massage theo hướng lên trên Tiếp tục với kem dưỡng. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Hyaluronic_Acid_Cấp_Nước_50ml_f71quh.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Hyaluronic_Acid_Cấp_Nước_50ml_yrlnlw.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da khô và da mất nước"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "365f360b197506acbe134cbf",
+    "sku": "CAL-SER-002",
+    "name": "Serum Calista Jojoba Lô Hội 50ml Cấp Ẩm Phục Hồi Da",
+    "slug": "serum-calista-jojoba-lo-hoi-50ml-cap-am-phuc-hoi-da",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Jojoba Lô Hội kết hợp sức mạnh dưỡng ẩm của dầu jojoba với khả năng làm dịu và phục hồi da từ lô hội, giúp da trông căng mọng, mềm mịn và phục hồi tốt hơn sau những tác động từ môi trường.",
+    "ingredients": "Dầu Jojoba, Chiết Xuất Lô Hội, Vitamin E",
+    "howToUse": "Làm sạch da và dùng toner Lấy 3-5 giọt serum ra lòng bàn tay Thoa đều lên mặt và cổ, vỗ nhẹ cho thấm Dùng kem dưỡng sau. Sử dụng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Cấp_Ẩm_Jojoba_Lô_Hội_50ml_znv8xb.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Cấp_Ẩm_Jojoba_Lô_Hội_50ml_kjzlsl.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Da khô",
+      "da nhạy cảm",
+      "da hỗn hợp"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "eaab2aaa57bf7d9eedb48931",
+    "sku": "CAL-SER-006",
+    "name": "Serum Calista Niacinamide 50ml Giảm Thâm Thu Nhỏ Lỗ Chân Lông",
+    "slug": "serum-calista-niacinamide-50ml-giam-tham-thu-nho-lo-chan-long",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Niacinamide (Vitamin B3) với nồng độ được tối ưu hóa, hỗ trợ làm mờ vết thâm, thu nhỏ lỗ chân lông trông thấy và cải thiện kết cấu da sau quá trình sử dụng đều đặn. Phù hợp với nhiều loại da và có thể kết hợp với các sản phẩm dưỡng da khác.",
+    "ingredients": "Niacinamide, Zinc PCA, Hyaluronic Acid",
+    "howToUse": "Làm sạch và dùng toner Lấy 3-4 giọt serum ra lòng bàn tay Thoa đều lên mặt và vùng cần cải thiện Dùng kem dưỡng sau. Sử dụng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Niacinamide_Giảm_Thâm_50ml_figdlw.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Niacinamide_Giảm_Thâm_50ml_eqwp64.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "c911f5ee076b4a5e2ebec349",
+    "sku": "CAL-SER-001",
+    "name": "Serum Calista Phục Hồi Hoa Cúc 50ml Làm Dịu Phục Hồi Da",
+    "slug": "serum-calista-phuc-hoi-hoa-cuc-50ml-lam-diu-phuc-hoi-da",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Phục Hồi Hoa Cúc với chiết xuất hoa cúc La Mã (Chamomile) nổi tiếng với đặc tính làm dịu và phục hồi da, hỗ trợ giúp da nhạy cảm trở nên dịu nhẹ và ít kích ứng hơn sau quá trình sử dụng đều đặn.",
+    "ingredients": "Chiết Xuất Hoa Cúc La Mã, Bisabolol từ hoa cúc, Panthenol",
+    "howToUse": "Làm sạch da và dùng toner Lấy 3-5 giọt serum ra lòng bàn tay Vỗ nhẹ lên da, không chà mạnh Dùng kem dưỡng sau. Có thể dùng cả sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Phục_Hồi_Hoa_Cúc_50ml_p5qiqc.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Phục_Hồi_Hoa_Cúc_50ml_pxahkj.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Da nhạy cảm",
+      "da kích ứng",
+      "mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "75b47e9dacff3edd7a5c0f55",
+    "sku": "CAL-SER-004",
+    "name": "Serum Calista Việt Quất 50ml Chống Oxy Hóa Sáng Da",
+    "slug": "serum-calista-viet-quat-50ml-chong-oxy-hoa-sang-da",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Việt Quất với nồng độ cao chiết xuất việt quất giàu anthocyanin, hỗ trợ bảo vệ da khỏi tác hại của gốc tự do và giúp da trông sáng, tươi trẻ hơn sau quá trình sử dụng đều đặn.",
+    "ingredients": "Chiết Xuất Việt Quất, Resveratrol, Vitamin C",
+    "howToUse": "Làm sạch da và dùng toner Lấy 3-5 giọt serum Vỗ nhẹ lên da mặt Tiếp với kem dưỡng. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Chống_Oxy_Hóa_Việt_Quất_50ml_dbg6gu.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Chống_Oxy_Hóa_Việt_Quất_50ml_vesnir.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da xỉn màu và da cần bảo vệ"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "a6a1f6fa4157f79427be32d8",
+    "sku": "CAL-SER-005",
+    "name": "Serum Calista Vitamin C 50ml Mờ Thâm Dưỡng Sáng Da",
+    "slug": "serum-calista-vitamin-c-50ml-mo-tham-duong-sang-da",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Vitamin C với dạng vitamin C ổn định, hỗ trợ làm mờ vết thâm và cải thiện sắc da sau quá trình sử dụng đều đặn. Kết cấu serum mỏng nhẹ thấm nhanh, không để lại cảm giác nhờn bóng.",
+    "ingredients": "Vitamin C, Niacinamide, Ferulic Acid",
+    "howToUse": "Làm sạch da và dùng toner Lấy 3-5 giọt serum Thoa đều lên mặt, vỗ nhẹ cho thấm Dùng kem dưỡng và kem chống nắng ban ngày. Ưu tiên dùng buổi sáng",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Vitamin_C_mờ_thâm_50ml_a6cyhk.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Vitamin_C_mờ_thâm_50ml_ukesrm.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da xỉn màu và da có vết thâm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "be9efe2cd7e4b139d1b7e14c",
+    "sku": "CAL-SER-003",
+    "name": "Serum Calista Vitamin C Cam 50ml Dưỡng Sáng Mờ Thâm",
+    "slug": "serum-calista-vitamin-c-cam-50ml-duong-sang-mo-tham",
+    "price": 229000,
+    "comparePrice": 0,
+    "description": "Serum Calista Vitamin C Cam kết hợp vitamin C tổng hợp với chiết xuất cam tươi giàu vitamin C tự nhiên, tạo ra công thức dưỡng sáng da và hỗ trợ làm mờ thâm hiệu quả với hương thơm dịu nhẹ từ cam.",
+    "ingredients": "Vitamin C & Chiết Xuất Cam, Alpha Arbutin, Niacinamide",
+    "howToUse": "Làm sạch da và dùng toner Lấy 3-5 giọt serum ra lòng bàn tay Thoa và vỗ nhẹ lên da mặt Tiếp với kem dưỡng. Dùng sáng (kèm chống nắng) và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Vitamin_C_mờ_thâm_50ml_a6cyhk.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Serum_Calista_Vitamin_C_mờ_thâm_50ml_ukesrm.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4613",
+    "skinTypes": [
+      "Mọi loại da có vết thâm",
+      "da xỉn màu"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Đặc trị"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "d4aa623bb384838ad3fbd264",
+    "sku": "CAL-MNK-006",
+    "name": "Sleeping Mask Calista Rau Má 50ml Phục Hồi Làm Dịu Da",
+    "slug": "sleeping-mask-calista-rau-ma-50ml-phuc-hoi-lam-diu-da",
+    "price": 59000,
+    "comparePrice": 0,
+    "description": "Sleeping Mask Calista Rau Má được thiết kế tối ưu cho việc phục hồi da qua đêm. Chiết xuất rau má (centella asiatica) hỗ trợ làm dịu và phục hồi da bị kích ứng hoặc mệt mỏi, giúp da trông khỏe mạnh hơn vào buổi sáng.",
+    "ingredients": "Chiết Xuất Rau Má, Madecassoside, Hyaluronic Acid",
+    "howToUse": "Hoàn tất quy trình skincare tối Thoa lớp mỏng sleeping mask làm bước cuối cùng Để qua đêm, không cần rửa lại Sáng hôm sau rửa mặt sạch. Dùng 3-4 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sleeping_Mask_Calista_Rau_Má_50ml_sk602y.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sleeping_Mask_Calista_Rau_Má_50ml_cimmil.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da nhạy cảm",
+      "da kích ứng",
+      "mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Chăm sóc chuyên sâu"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "08793e28ab0e0ecd16261dc4",
+    "sku": "CAL-SRM-002",
+    "name": "Sữa Rửa Mặt Calista Cấp Ẩm Lô Hội 250ml Dưỡng Ẩm Làm Dịu Da",
+    "slug": "sua-rua-mat-calista-cap-am-lo-hoi-250ml-duong-am-lam-diu-da",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Sữa Rửa Mặt Calista Cấp Ẩm Lô Hội với công thức dịu nhẹ từ chiết xuất lô hội, vừa làm sạch da hiệu quả vừa cấp ẩm và làm dịu da trong cùng một bước. Sản phẩm không gây khô căng sau rửa, phù hợp cho cả da nhạy cảm.",
+    "ingredients": "Chiết Xuất Lô Hội, Panthenol, Amino Acid",
+    "howToUse": "Làm ướt da mặt với nước ấm Lấy lượng sữa rửa mặt vừa đủ ra lòng bàn tay Tạo bọt và massage nhẹ nhàng 30-60 giây Rửa sạch với nước. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Cấp_Ẩm_Lô_Hội_250ml_i4emtv.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Cấp_Ẩm_Lô_Hội_250ml_amyjzc.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da khô",
+      "da nhạy cảm",
+      "mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "cdf277afcc281ff24921f1ce",
+    "sku": "CAL-SRM-001",
+    "name": "Sữa Rửa Mặt Calista Gel Trà Xanh 250ml Kiềm Dầu Sạch Sâu Dịu Nhẹ",
+    "slug": "sua-rua-mat-calista-gel-tra-xanh-250ml-kiem-dau-sach-sau-diu-nhe",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Sữa Rửa Mặt Gel Calista Trà Xanh với kết cấu gel trong mát, tạo bọt mịn vừa làm sạch sâu vừa hỗ trợ kiềm chế dầu nhờn. Chiết xuất trà xanh giàu antioxidant giúp bảo vệ da trong khi làm sạch, phù hợp cho da dầu và da hỗn hợp.",
+    "ingredients": "Chiết Xuất Trà Xanh, Salicylate, Glycerin",
+    "howToUse": "Làm ướt mặt Lấy lượng gel vừa đủ, tạo bọt Massage nhẹ nhàng lên mặt 30-60 giây Rửa sạch với nước. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Gel_Trà_Xanh_250ml_itxc32.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Gel_Trà_Xanh_250ml_kbgzqs.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da mụn"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "84e1e54833c78f9139416472",
+    "sku": "CAL-SRM-003",
+    "name": "Sữa Rửa Mặt Calista Tạo Bọt Hoa Cúc 250ml Làm Sạch Dịu Nhẹ Cho Da Nhạy Cảm",
+    "slug": "sua-rua-mat-calista-tao-bot-hoa-cuc-250ml-lam-sach-diu-nhe-cho-da-nhay-cam",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Sữa Rửa Mặt Tạo Bọt Calista Hoa Cúc với kết cấu bọt mịn nhẹ được tạo sẵn, làm sạch cực kỳ dịu nhẹ và không gây kích ứng, đặc biệt lý tưởng cho da nhạy cảm. Chiết xuất hoa cúc la mã giúp làm dịu và bảo vệ da trong quá trình làm sạch.",
+    "ingredients": "Chiết Xuất Hoa Cúc, Amino Acid surfactants, Allantoin",
+    "howToUse": "Làm ướt mặt với nước mát hoặc ấm Bơm bọt trực tiếp lên tay hoặc lên mặt Massage nhẹ nhàng 20-30 giây Rửa sạch với nước mát. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Tạo_Bọt_Hoa_Cúc_250ml_taflqz.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Tạo_Bọt_Hoa_Cúc_250ml_kxqpbx.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da nhạy cảm",
+      "da kích ứng",
+      "da khô"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "4e02e4e5c9ece94c95e5a6fe",
+    "sku": "CAL-SRM-005",
+    "name": "Sữa Rửa Mặt Calista Than Tre 300ml Giảm Dầu Hỗ Trợ Sạch Mụn",
+    "slug": "sua-rua-mat-calista-than-tre-300ml-giam-dau-ho-tro-sach-mun",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Sữa Rửa Mặt Calista Than Tre với than hoạt tính từ tre, hỗ trợ hút sạch dầu thừa và tạp chất từ lỗ chân lông hiệu quả trong mỗi lần rửa mặt. Phù hợp cho da dầu nhiều mụn cần bước làm sạch mạnh mẽ hơn.",
+    "ingredients": "Than Tre Hoạt Tính, Salicylic Acid, Glycerin",
+    "howToUse": "Làm ướt mặt Lấy lượng sữa rửa mặt ra lòng bàn tay, tạo bọt Massage lên mặt 30-60 giây, tập trung vùng nhiều dầu Rửa sạch kỹ. Dùng 1-2 lần/ngày",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Than_Tre_300ml_wt81lv.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Than_Tre_300ml_qr1bjq.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da mụn"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "21bba166e5b58c63b9e73a6d",
+    "sku": "CAL-SRM-004",
+    "name": "Sữa Rửa Mặt Calista Yến Mạch 300ml Làm Sạch Dưỡng Ẩm Mềm Da",
+    "slug": "sua-rua-mat-calista-yen-mach-300ml-lam-sach-duong-am-mem-da",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Sữa Rửa Mặt Calista Yến Mạch kết hợp làm sạch dịu nhẹ với dưỡng chất từ yến mạch, giúp da vừa sạch vừa mềm mịn sau mỗi lần rửa. Đây là lựa chọn hoàn hảo cho da khô và da nhạy cảm cần sự chăm sóc dịu nhẹ.",
+    "ingredients": "Chiết Xuất Yến Mạch, Beta-Glucan từ yến mạch, Glycerin",
+    "howToUse": "Làm ướt mặt Lấy sữa rửa mặt ra lòng bàn tay Tạo bọt, massage lên mặt 30-60 giây Rửa sạch với nước ấm. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Yến_Mạch_300ml_wdqnnw.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Sữa_rửa_mặt_Calista_Yến_Mạch_300ml_lflg5k.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc45d9",
+    "skinTypes": [
+      "Da khô",
+      "da thường",
+      "da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "d49db4f24abc66b04aa8e6ff",
+    "sku": "CAL-TBC-005",
+    "name": "Tẩy Tế Bào Chết Calista Bơ 250g Dưỡng Ẩm Cho Da Khô",
+    "slug": "tay-te-bao-chet-calista-bo-250g-duong-am-cho-da-kho",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Tẩy Tế Bào Chết Calista Bơ với hạt tẩy tự nhiên mịn nhẹ kết hợp bơ hạt mỡ dưỡng ẩm, vừa loại bỏ tế bào chết nhẹ nhàng vừa cung cấp dưỡng chất ngay trong quá trình tẩy, giúp da trông mịn mà và mềm mại hơn.",
+    "ingredients": "Bơ Hạt Mỡ, Hạt Tẩy Tự Nhiên, Vitamin E",
+    "howToUse": "Làm ướt da mặt hoặc vùng da cần tẩy Lấy lượng vừa đủ, massage nhẹ nhàng theo chuyển động tròn 1-2 phút Rửa sạch với nước ấm Dùng kem dưỡng ẩm sau. Sử dụng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Bơ_250g_yxbv8k.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Bơ_250g_ytdbva.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da khô",
+      "da thường"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Tẩy tế bào chết"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "a53f007ef171e7cb0c42c595",
+    "sku": "CAL-TBC-001",
+    "name": "Tẩy Tế Bào Chết Calista Cà Phê 250g Làm Sạch Da Chết Mịn Da",
+    "slug": "tay-te-bao-chet-calista-ca-phe-250g-lam-sach-da-chet-min-da",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Tẩy Tế Bào Chết Calista Cà Phê với hạt cà phê nguyên bản, hỗ trợ loại bỏ lớp da chết hiệu quả, giúp da trông mịn màng và tươi sáng hơn sau mỗi lần sử dụng. Hương cà phê thơm mát mang lại cảm giác thư giãn khi sử dụng.",
+    "ingredients": "Bột Cà Phê, Caffeine từ cà phê, Dầu Cà Phê",
+    "howToUse": "Làm ướt da vùng cần tẩy tế bào chết Lấy lượng vừa đủ, massage nhẹ nhàng theo vòng tròn 1-2 phút Rửa sạch với nước ấm Dùng kem dưỡng sau. Sử dụng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Cà_Phê_250g_nbgk7o.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Cà_Phê_250g_wscaki.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da thường",
+      "da dầu",
+      "da hỗn hợp"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Tẩy tế bào chết"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "a68a4853ef97f47e3e340aa6",
+    "sku": "CAL-TBC-002",
+    "name": "Tẩy Tế Bào Chết Calista Đường Nâu 250g Dưỡng Mềm Da Sáng Da",
+    "slug": "tay-te-bao-chet-calista-duong-nau-250g-duong-mem-da-sang-da",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Tẩy Tế Bào Chết Calista Đường Nâu với tinh thể đường nâu mịn tan dần trong nước, tẩy da chết cực kỳ dịu nhẹ đồng thời cung cấp glycolic acid tự nhiên giúp da trông mịn sáng hơn sau mỗi lần sử dụng.",
+    "ingredients": "Đường Nâu, Mật Mía, Vitamin B",
+    "howToUse": "Làm ướt da vùng cần tẩy Lấy lượng vừa đủ, massage nhẹ nhàng Rửa sạch với nước ấm (đường sẽ tan dần khi massage) Dùng dưỡng ẩm sau. Sử dụng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Đường_Nâu_250g_jbnuk0.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Đường_Nâu_250g_m9sx86.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da nhạy cảm"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Tẩy tế bào chết"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "beed731f71dd7568b637c74d",
+    "sku": "CAL-TBC-004",
+    "name": "Tẩy Tế Bào Chết Calista Gạo Sáng Da 250g Làm Đều Màu Da",
+    "slug": "tay-te-bao-chet-calista-gao-sang-da-250g-lam-deu-mau-da",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Tẩy Tế Bào Chết Calista Gạo lấy cảm hứng từ làn da sáng mịn của phụ nữ châu Á, sử dụng cám gạo và bột gạo nguyên chất để tẩy da chết nhẹ nhàng và dưỡng sáng da, giúp da trông đều màu và mịn màng hơn.",
+    "ingredients": "Cám Gạo, Bột Gạo, Inositol",
+    "howToUse": "Làm ướt da Lấy lượng vừa đủ, massage nhẹ nhàng theo chuyển động tròn 1-2 phút Rửa sạch với nước ấm Thoa kem dưỡng sau. Dùng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Gạo_Sáng_Da_250g_tntx19.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Gạo_Sáng_Da_250g_tvtw2y.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Tẩy tế bào chết"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "4ff2ce1ffb47dfcfc633cba7",
+    "sku": "CAL-TBC-003",
+    "name": "Tẩy Tế Bào Chết Calista Trà Xanh 250g Kiềm Dầu Giảm Bít Tắc Lỗ Chân Lông",
+    "slug": "tay-te-bao-chet-calista-tra-xanh-250g-kiem-dau-giam-bit-tac-lo-chan-long",
+    "price": 149000,
+    "comparePrice": 0,
+    "description": "Tẩy Tế Bào Chết Calista Trà Xanh kết hợp hạt tẩy tự nhiên với chiết xuất trà xanh giàu EGCG, hỗ trợ làm sạch da chết, kiềm dầu nhờn và giảm tình trạng bít tắc lỗ chân lông, giúp da trông sạch thoáng và ít nhờn hơn.",
+    "ingredients": "Chiết Xuất Trà Xanh, Hạt Tẩy Tự Nhiên, Kaolin Clay",
+    "howToUse": "Làm ướt da Lấy lượng vừa đủ, massage nhẹ nhàng theo vòng tròn 1-2 phút Rửa sạch với nước ấm Dùng kem dưỡng sau. Sử dụng 2-3 lần/tuần",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Trà_Xanh_250g_fl63eq.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Tẩy_tế_bào_chết_Calista_Trà_Xanh_250g_pl6jop.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4633",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da mụn"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên",
+      "Tẩy tế bào chết"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "c37123e007b230378b05c551",
+    "sku": "CAL-NCB-004",
+    "name": "Toner Calista Hoa Cúc 150ml Dưỡng Ẩm Dịu Nhẹ Cho Da Nhạy Cảm",
+    "slug": "toner-calista-hoa-cuc-150ml-duong-am-diu-nhe-cho-da-nhay-cam",
+    "price": 129000,
+    "comparePrice": 0,
+    "description": "Toner Calista Hoa Cúc với chiết xuất hoa cúc la mã nổi tiếng dịu nhẹ, hỗ trợ cân bằng pH da, cấp ẩm nhẹ và làm dịu da sau bước làm sạch. Đây là lựa chọn hoàn hảo cho da nhạy cảm dễ đỏ và kích ứng.",
+    "ingredients": "Chiết Xuất Hoa Cúc La Mã, Bisabolol, Glycerin",
+    "howToUse": "Dùng sau bước rửa mặt Thấm toner lên bông tẩy trang hoặc đổ ra lòng bàn tay Vỗ nhẹ lên da mặt và cổ Tiếp tục với serum và kem dưỡng. Dùng sáng và tối",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Hoa_Cúc_150ml_ikwhhv.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Hoa_Cúc_150ml_kwdycq.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4605",
+    "skinTypes": [
+      "Da nhạy cảm",
+      "da kích ứng",
+      "mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "fd905940d78a9843e4663bd3",
+    "sku": "CAL-DDA-001",
+    "name": "Toner Calista Hoa Hồng 300ml Cân Bằng Da Dưỡng Ẩm",
+    "slug": "toner-calista-hoa-hong-300ml-can-bang-da-duong-am",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Toner Calista Hoa Hồng với nước cất hoa hồng nguyên chất, giúp cân bằng pH da và cấp ẩm nhẹ nhàng sau mỗi bước làm sạch. Hương hoa hồng dịu nhẹ mang lại cảm giác thư giãn, tươi mát và da trông sáng mướt hơn.",
+    "ingredients": "Nước Hoa Hồng, Chiết Xuất Hoa Hồng, Glycerin",
+    "howToUse": "Dùng sau bước rửa mặt Đổ ra bông tẩy trang hoặc lòng bàn tay Vỗ nhẹ lên toàn bộ mặt và cổ Tiếp tục với serum và kem dưỡng",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Hoa_Hồng_300ml_cefkgz.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Hoa_Hồng_300ml_qidhud.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4605",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "89143fbdfe59184e1a905aec",
+    "sku": "CAL-NCB-001",
+    "name": "Toner Calista Rau Má Tràm Trà 300ml Giảm Dầu Hỗ Trợ Giảm Mụn",
+    "slug": "toner-calista-rau-ma-tram-tra-300ml-giam-dau-ho-tro-giam-mun",
+    "price": 159000,
+    "comparePrice": 0,
+    "description": "Toner Calista Rau Má Tràm Trà kết hợp sức mạnh làm dịu từ rau má và khả năng chăm sóc da mụn từ tràm trà, hỗ trợ cân bằng dầu nhờn và cải thiện tình trạng da mụn sau quá trình sử dụng đều đặn. Sản phẩm lý tưởng cho da dầu và da mụn.",
+    "ingredients": "Chiết Xuất Rau Má, Tinh Dầu Tràm Trà, Witch Hazel",
+    "howToUse": "Dùng sau bước rửa mặt Thấm toner lên bông tẩy trang Lau nhẹ nhàng hoặc vỗ nhẹ lên da Tiếp tục với serum và kem dưỡng",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Rau_Má_Tràm_Trà_300ml_m89g1h.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Rau_Má_Tràm_Trà_300ml_vejjyz.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4605",
+    "skinTypes": [
+      "Da dầu",
+      "da hỗn hợp",
+      "da mụn"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": true,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "5fa10bfd9980987948b82f17",
+    "sku": "CAL-NCB-003",
+    "name": "Toner Calista Sen 150ml Làm Dịu Da Cân Bằng Độ Ẩm",
+    "slug": "toner-calista-sen-150ml-lam-diu-da-can-bang-do-am",
+    "price": 129000,
+    "comparePrice": 0,
+    "description": "Toner Calista Sen với chiết xuất hoa sen thuần khiết của Việt Nam, hỗ trợ cân bằng độ ẩm da và làm dịu da sau bước làm sạch. Hương sen thanh mát nhẹ nhàng mang lại cảm giác thư thái, giúp da trông tươi mát và dịu nhẹ hơn.",
+    "ingredients": "Chiết Xuất Hoa Sen, Nước Hoa Sen, Glycerin",
+    "howToUse": "Dùng sau bước làm sạch da Đổ toner ra bông tẩy trang hoặc lòng bàn tay Thoa hoặc vỗ nhẹ lên mặt và cổ Tiếp tục với serum và kem dưỡng",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Sen_150ml_msthrp.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Toner_Calista_Sen_150ml_b8clyv.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4605",
+    "skinTypes": [
+      "Mọi loại da",
+      "đặc biệt da nhạy cảm và da thường"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  },
+  {
+    "_id": "af52945e6a75c31342c75b26",
+    "sku": "CAL-XKH-001",
+    "name": "Xịt Khoáng Calista Cam Việt Quất 200ml Cấp Nước Tươi Mát Da",
+    "slug": "xit-khoang-calista-cam-viet-quat-200ml-cap-nuoc-tuoi-mat-da",
+    "price": 129000,
+    "comparePrice": 0,
+    "description": "Xịt Khoáng Calista Cam Việt Quất kết hợp khoáng chất thiên nhiên với vitamin C từ cam và antioxidant từ việt quất, hỗ trợ cấp nước tức thì và bảo vệ da mọi lúc mọi nơi. Sản phẩm tiện dụng để làm mát da sau khi trang điểm hoặc dưỡng da.",
+    "ingredients": "Chiết Xuất Cam, Chiết Xuất Việt Quất, Khoáng Chất Thiên Nhiên",
+    "howToUse": "Lắc nhẹ trước khi dùng Giữ bình cách mặt khoảng 20-25cm Xịt đều lên mặt, nhắm mắt khi xịt Để khô tự nhiên hoặc thấm nhẹ. Có thể dùng nhiều lần trong ngày",
+    "images": [
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Xịt_khoáng_Calista_Cam_Việt_Quất_200ml_gftzx2.png",
+      "https://res.cloudinary.com/dzeax7tmu/image/upload/Xịt_khoáng_Calista_Cam_Việt_Quất_200ml_ixscdg.jpg"
+    ],
+    "category": "6a17f4b038f7fdba63fc4605",
+    "skinTypes": [
+      "Mọi loại da"
+    ],
+    "tags": [
+      "Thuần chay",
+      "Chiết xuất thiên nhiên"
+    ],
+    "stock": 1000,
+    "ratings": {
+      "avg": 0,
+      "count": 0
+    },
+    "isFeatured": false,
+    "isActive": true,
+    "createdAt": "2026-06-15T00:00:00.000Z",
+    "updatedAt": "2026-06-15T00:00:00.000Z",
+    "__v": 0
+  }
+]

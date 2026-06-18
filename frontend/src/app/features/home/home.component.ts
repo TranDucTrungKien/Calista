@@ -8,6 +8,7 @@ import { ProductCardComponent } from '../../shared/components/product-card/produ
 import { ProductCardSkeletonComponent } from '../../shared/components/product-card-skeleton/product-card-skeleton.component';
 import { SearchIconComponent } from '../../shared/icons/search-icon.component';
 import { ChevronRightIconComponent } from '../../shared/icons/chevron-right-icon.component';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 @Component({
   selector: 'app-home',
@@ -19,6 +20,7 @@ import { ChevronRightIconComponent } from '../../shared/icons/chevron-right-icon
     ProductCardSkeletonComponent,
     SearchIconComponent,
     ChevronRightIconComponent,
+    StarButtonDirective,
   ],
   template: `
     <!-- HERO -->
@@ -158,7 +160,7 @@ import { ChevronRightIconComponent } from '../../shared/icons/chevron-right-icon
             Mỗi sản phẩm Calista đều được nghiên cứu kỹ lưỡng từ những nguyên liệu thực vật thuần khiết —
             được trồng và thu hoạch một cách bền vững.
           </p>
-          <a routerLink="/ve-chung-toi" class="btn-ghost self-start rounded-full">Tìm hiểu thêm</a>
+          <a routerLink="/ve-chung-toi" class="btn-ghost self-start rounded-full" appStarBtn>Tìm hiểu thêm</a>
         </div>
         <img
           src="https://picsum.photos/seed/calista-story/900/700"

@@ -10,5 +10,6 @@ router.use('/reviews', require('./review'));
 router.use('/payment', require('./payment'));
 router.use('/upload', require('./upload'));
 router.use('/tiktok', require('./tiktok'));
+router.use('/shopee', require('./shopee'));
 
 module.exports = router;

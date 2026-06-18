@@ -262,8 +262,10 @@ export class ProductCardComponent {
   private toast = inject(ToastService);
 
   categoryName(): string {
-    const c = this.product.category;
-    return typeof c === 'object' && c ? c.name : '';
+    const cats = this.product.categories;
+    if (!cats?.length) return '';
+    const c = cats[0];
+    return typeof c === 'object' && c ? (c as any).name : '';
   }
 
   discountPct(): number {

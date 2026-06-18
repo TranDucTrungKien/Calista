@@ -11,10 +11,9 @@ const ProductSchema = new mongoose.Schema(
     ingredients: { type: String, default: '' },
     howToUse: { type: String, default: '' },
     images: { type: [String], default: [] },
-    category: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Category',
-      required: true,
+    categories: {
+      type: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Category' }],
+      default: [],
       index: true,
     },
     skinTypes: { type: [String], default: [] },

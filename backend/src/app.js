@@ -9,6 +9,7 @@ const path = require('path');
 const routes = require('./routes');
 const errorHandler = require('./middleware/error');
 const tiktokWebhookCtrl = require('./controllers/tiktok/tiktokWebhook');
+const shopeeWebhookCtrl = require('./controllers/shopee/shopeeWebhook');
 
 const app = express();
 
@@ -18,6 +19,7 @@ const origins = (process.env.CORS_ORIGINS || 'http://localhost:4200')
 
 // Webhook MUST be registered before express.json() so we receive the raw body for signature validation
 app.post('/api/tiktok/webhook', express.raw({ type: '*/*' }), tiktokWebhookCtrl.receive);
+app.post('/api/shopee/webhook', express.raw({ type: '*/*' }), shopeeWebhookCtrl.receive);
 
 app.use(helmet({ crossOriginResourcePolicy: false }));
 app.use(
@@ -106,15 +108,17 @@ app.use('/api', routes);
 // Sitemap
 app.use('/', require('./routes/sitemap'));
 
-// SPA fallback — serve Angular build in production
-const DIST = path.join(__dirname, '../../frontend/dist/calista/browser');
-app.use(express.static(DIST));
-app.get(/^(?!\/api|\/uploads).*/, (_req, res) => {
-  const index = path.join(DIST, 'index.html');
-  res.sendFile(index, (err) => {
-    if (err) res.status(404).json({ message: 'Không tìm thấy tài nguyên' });
+// SPA fallback — serve Angular build in production (local only, not on Vercel)
+if (!process.env.VERCEL) {
+  const DIST = path.join(__dirname, '../../frontend/dist/calista/browser');
+  app.use(express.static(DIST));
+  app.get(/^(?!\/api|\/uploads).*/, (_req, res) => {
+    const index = path.join(DIST, 'index.html');
+    res.sendFile(index, (err) => {
+      if (err) res.status(404).json({ message: 'Không tìm thấy tài nguyên' });
+    });
   });
-});
+}
 
 app.use(errorHandler);
 

@@ -38,7 +38,7 @@ export interface Product {
   ingredients?: string;
   howToUse?: string;
   images: string[];
-  category: Category | string;
+  categories: (Category | string)[];
   skinTypes: string[];
   tags: string[];
   stock: number;

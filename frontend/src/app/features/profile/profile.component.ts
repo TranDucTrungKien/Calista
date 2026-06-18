@@ -8,6 +8,7 @@ import { Address } from '../../core/models';
 import { LocationIconComponent } from '../../shared/icons/location-icon.component';
 import { TrashIconComponent } from '../../shared/icons/trash-icon.component';
 import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 @Component({
   selector: 'app-profile',
@@ -18,6 +19,7 @@ import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
     LocationIconComponent,
     TrashIconComponent,
     PlusIconComponent,
+    StarButtonDirective,
   ],
   template: `
     <div class="container-app py-lg">
@@ -36,7 +38,7 @@ import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
               <label class="label">Số điện thoại</label>
               <input formControlName="phone" class="input" />
             </div>
-            <button type="submit" class="btn-primary">Lưu thay đổi</button>
+            <button type="submit" class="btn-primary" appStarBtn>Lưu thay đổi</button>
           </form>
         </section>
 
@@ -52,7 +54,7 @@ import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
               <label class="label">Mật khẩu mới</label>
               <input formControlName="newPassword" type="password" class="input" />
             </div>
-            <button type="submit" class="btn-primary">Cập nhật mật khẩu</button>
+            <button type="submit" class="btn-primary" appStarBtn>Cập nhật mật khẩu</button>
           </form>
         </section>
 
@@ -79,8 +81,8 @@ import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
                 <input type="checkbox" formControlName="isDefault" /> Đặt làm mặc định
               </label>
               <div class="md:col-span-2 flex gap-sm">
-                <button type="submit" class="btn-primary">Lưu địa chỉ</button>
-                <button type="button" (click)="addingAddr.set(false)" class="btn-ghost">Hủy</button>
+                <button type="submit" class="btn-primary" appStarBtn>Lưu địa chỉ</button>
+                <button type="button" (click)="addingAddr.set(false)" class="btn-ghost" appStarBtn>Hủy</button>
               </div>
             </form>
           }

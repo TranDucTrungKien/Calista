@@ -10,6 +10,7 @@ import { TrashIconComponent } from '../../shared/icons/trash-icon.component';
 import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
 import { MinusIconComponent } from '../../shared/icons/minus-icon.component';
 import { CartItem } from '../../core/models';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 @Component({
   selector: 'app-cart',
@@ -23,6 +24,7 @@ import { CartItem } from '../../core/models';
     TrashIconComponent,
     PlusIconComponent,
     MinusIconComponent,
+    StarButtonDirective,
   ],
   template: `
     <div class="container-app py-lg">
@@ -30,7 +32,7 @@ import { CartItem } from '../../core/models';
 
       @if (cart.cart().items.length === 0) {
         <app-empty-state title="Giỏ hàng trống" message="Hãy khám phá những sản phẩm Calista yêu thích và thêm vào giỏ hàng.">
-          <a routerLink="/san-pham" class="btn-primary mt-md">Khám phá sản phẩm</a>
+          <a routerLink="/san-pham" class="btn-primary mt-md" appStarBtn>Khám phá sản phẩm</a>
         </app-empty-state>
       } @else {
         <div class="grid lg:grid-cols-[1fr_360px] gap-xl">
@@ -90,7 +92,7 @@ import { CartItem } from '../../core/models';
                 <span class="text-primary">{{ total() | vnd }}</span>
               </div>
               <button type="button" (click)="checkout()" class="btn-primary btn-block">Tiến hành thanh toán</button>
-              <a routerLink="/san-pham" class="btn-ghost btn-block">Tiếp tục mua sắm</a>
+              <a routerLink="/san-pham" class="btn-ghost btn-block" appStarBtn>Tiếp tục mua sắm</a>
             </div>
           </aside>
         </div>

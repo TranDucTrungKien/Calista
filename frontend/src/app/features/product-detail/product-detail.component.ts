@@ -100,8 +100,6 @@ import { CheckCircleIconComponent } from '../../shared/icons/check-circle-icon.c
             }
           </div>
 
-          <p class="text-body-md text-on-surface-variant mb-md">{{ p.description }}</p>
-
           <div class="flex flex-wrap gap-xs mb-lg">
             @for (s of p.skinTypes; track s) { <span class="chip-skin">{{ s }}</span> }
             @for (t of p.tags; track t) { <span class="chip-attr">{{ t }}</span> }
@@ -398,8 +396,8 @@ export class ProductDetailComponent implements OnInit, OnDestroy {
   }
 
   categoryName(p: Product) {
-    const c = p.category;
-    return typeof c === 'object' && c ? c.name : '';
+    const c = p.categories?.[0];
+    return typeof c === 'object' && c ? (c as any).name : '';
   }
 
   reviewerName(r: Review) {

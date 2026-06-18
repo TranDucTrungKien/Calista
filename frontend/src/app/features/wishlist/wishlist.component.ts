@@ -7,6 +7,7 @@ import { ToastService } from '../../core/services/toast.service';
 import { Product } from '../../core/models';
 import { ProductCardComponent } from '../../shared/components/product-card/product-card.component';
 import { EmptyStateComponent } from '../../shared/components/empty-state/empty-state.component';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 @Component({
   selector: 'app-wishlist',
@@ -16,6 +17,7 @@ import { EmptyStateComponent } from '../../shared/components/empty-state/empty-s
     RouterLink,
     ProductCardComponent,
     EmptyStateComponent,
+    StarButtonDirective,
   ],
   template: `
     <div class="container-app py-lg">
@@ -24,7 +26,7 @@ import { EmptyStateComponent } from '../../shared/components/empty-state/empty-s
         <p class="text-body-md text-on-surface-variant">Đang tải...</p>
       } @else if (items().length === 0) {
         <app-empty-state title="Chưa có sản phẩm yêu thích" message="Khám phá và thêm những sản phẩm bạn yêu thích nhất vào đây.">
-          <a routerLink="/san-pham" class="btn-primary mt-md">Khám phá ngay</a>
+          <a routerLink="/san-pham" class="btn-primary mt-md" appStarBtn>Khám phá ngay</a>
         </app-empty-state>
       } @else {
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-md">

@@ -7,6 +7,7 @@ import { CartService } from '../../core/services/cart.service';
 import { ToastService } from '../../core/services/toast.service';
 import { EyeIconComponent } from '../../shared/icons/eye-icon.component';
 import { EyeOffIconComponent } from '../../shared/icons/eye-off-icon.component';
+import { StarButtonDirective } from '../../shared/directives/star-button.directive';
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,7 @@ import { EyeOffIconComponent } from '../../shared/icons/eye-off-icon.component';
     RouterLink,
     EyeIconComponent,
     EyeOffIconComponent,
+    StarButtonDirective,
   ],
   template: `
     <div class="min-h-screen grid lg:grid-cols-2">
@@ -58,7 +60,7 @@ import { EyeOffIconComponent } from '../../shared/icons/eye-off-icon.component';
               @if (invalid('password')) { <p class="text-body-sm text-error mt-xs animate-fade-in">Vui lòng nhập mật khẩu.</p> }
             </div>
 
-            <button type="submit" [disabled]="loading()" class="btn-primary btn-block">
+            <button type="submit" [disabled]="loading()" class="btn-primary btn-block" appStarBtn>
               {{ loading() ? 'Đang xử lý...' : 'Đăng nhập' }}
             </button>
           </form>

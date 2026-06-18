@@ -7,6 +7,7 @@ import { SearchIconComponent } from '../../icons/search-icon.component';
 import { BagIconComponent } from '../../icons/bag-icon.component';
 import { UserIconComponent } from '../../icons/user-icon.component';
 import { CloseIconComponent } from '../../icons/close-icon.component';
+import { StarButtonDirective } from '../../directives/star-button.directive';
 
 @Component({
   selector: 'app-navbar',
@@ -19,6 +20,7 @@ import { CloseIconComponent } from '../../icons/close-icon.component';
     BagIconComponent,
     UserIconComponent,
     CloseIconComponent,
+    StarButtonDirective,
   ],
   template: `
     <header
@@ -115,7 +117,7 @@ import { CloseIconComponent } from '../../icons/close-icon.component';
             }
           </div>
         } @else {
-          <a routerLink="/dang-nhap" class="hidden md:inline-flex btn-primary !py-[8px] !px-md text-[13px]">Đăng nhập</a>
+          <a routerLink="/dang-nhap" appStarBtn class="hidden md:inline-flex btn-primary !py-[8px] !px-md text-[13px]">Đăng nhập</a>
         }
 
         <!-- Mobile hamburger -->
