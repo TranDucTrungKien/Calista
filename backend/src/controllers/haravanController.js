@@ -338,20 +338,28 @@ exports.register = handle(async (req, res) => {
       first_name: firstName,
       last_name: lastName,
       email,
-      phone: phone || '',
+      phone: phone || undefined,
       note: JSON.stringify({ pwHash }),
-      verified_email: true,
     });
   } catch (err) {
-    // Haravan returns 422 when email already taken
-    const body = err.message || '';
-    if (body.includes('422') || body.toLowerCase().includes('email')) {
-      return res.status(409).json({ message: 'Email đã được sử dụng' });
+    if (err.status === 422) {
+      // Parse which field caused the 422
+      try {
+        const body = JSON.parse(err.message.replace(/^Haravan \d+: /, ''));
+        if (body?.errors?.email) {
+          return res.status(409).json({ message: 'Email đã được sử dụng' });
+        }
+        // Return the actual Haravan validation error for debugging
+        const firstError = Object.values(body?.errors || {})[0];
+        return res.status(400).json({ message: Array.isArray(firstError) ? firstError[0] : 'Dữ liệu không hợp lệ' });
+      } catch {
+        return res.status(409).json({ message: 'Email đã được sử dụng' });
+      }
     }
     throw err;
   }
 
-  const customer = created.customer;
+  const customer = created?.customer;
   if (!customer) {
     return res.status(502).json({ message: 'Tạo tài khoản thất bại' });
   }
