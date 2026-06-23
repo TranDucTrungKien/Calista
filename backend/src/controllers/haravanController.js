@@ -323,11 +323,8 @@ exports.register = handle(async (req, res) => {
   if (!email || !password || !name) {
     return res.status(400).json({ message: 'Vui lòng điền đầy đủ thông tin' });
   }
-
-  // check existing
-  const existing = await haravan.findCustomerByEmail(email);
-  if ((existing.customers || []).length > 0) {
-    return res.status(409).json({ message: 'Email đã được sử dụng' });
+  if (password.length < 6) {
+    return res.status(400).json({ message: 'Mật khẩu ít nhất 6 ký tự' });
   }
 
   const pwHash = await bcrypt.hash(password, 10);
@@ -335,14 +332,24 @@ exports.register = handle(async (req, res) => {
   const lastName = nameParts.pop() || '';
   const firstName = nameParts.join(' ') || lastName;
 
-  const created = await haravan.createCustomer({
-    first_name: firstName,
-    last_name: lastName,
-    email,
-    phone: phone || '',
-    note: JSON.stringify({ pwHash }),
-    verified_email: true,
-  });
+  let created;
+  try {
+    created = await haravan.createCustomer({
+      first_name: firstName,
+      last_name: lastName,
+      email,
+      phone: phone || '',
+      note: JSON.stringify({ pwHash }),
+      verified_email: true,
+    });
+  } catch (err) {
+    // Haravan returns 422 when email already taken
+    const body = err.message || '';
+    if (body.includes('422') || body.toLowerCase().includes('email')) {
+      return res.status(409).json({ message: 'Email đã được sử dụng' });
+    }
+    throw err;
+  }
 
   const customer = created.customer;
   if (!customer) {

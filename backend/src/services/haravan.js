@@ -74,8 +74,9 @@ exports.getCustomers = ({ limit = 50, page = 1 } = {}) =>
 
 exports.getCustomer = (id) => haravanFetch(`/customers/${id}.json`);
 
+// Search by email using Haravan's search endpoint (more reliable than ?email= filter)
 exports.findCustomerByEmail = (email) =>
-  haravanFetch(`/customers.json?email=${encodeURIComponent(email)}`);
+  haravanFetch(`/customers/search.json?query=email:${encodeURIComponent(email)}&limit=1`);
 
 exports.createCustomer = (data) =>
   haravanFetch('/customers.json', {
