@@ -332,6 +332,7 @@ exports.register = handle(async (req, res) => {
   const lastName = nameParts.pop() || '';
   const firstName = nameParts.join(' ') || lastName;
 
+  // Step 1: create customer (without note — Haravan may not save note on creation)
   let created;
   try {
     created = await haravan.createCustomer({
@@ -339,17 +340,14 @@ exports.register = handle(async (req, res) => {
       last_name: lastName,
       email,
       phone: phone || undefined,
-      note: JSON.stringify({ pwHash }),
     });
   } catch (err) {
     if (err.status === 422) {
-      // Parse which field caused the 422
       try {
         const body = JSON.parse(err.message.replace(/^Haravan \d+: /, ''));
         if (body?.errors?.email) {
           return res.status(409).json({ message: 'Email đã được sử dụng' });
         }
-        // Return the actual Haravan validation error for debugging
         const firstError = Object.values(body?.errors || {})[0];
         return res.status(400).json({ message: Array.isArray(firstError) ? firstError[0] : 'Dữ liệu không hợp lệ' });
       } catch {
@@ -363,6 +361,9 @@ exports.register = handle(async (req, res) => {
   if (!customer) {
     return res.status(502).json({ message: 'Tạo tài khoản thất bại' });
   }
+
+  // Step 2: save password hash via update (more reliable than setting note on creation)
+  await haravan.updateCustomer(customer.id, { note: JSON.stringify({ pwHash }) });
 
   const { accessToken, refreshToken, payload } = issueTokens(customer);
 

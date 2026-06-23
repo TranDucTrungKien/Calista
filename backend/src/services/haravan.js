@@ -74,9 +74,19 @@ exports.getCustomers = ({ limit = 50, page = 1 } = {}) =>
 
 exports.getCustomer = (id) => haravanFetch(`/customers/${id}.json`);
 
-// Search by email using Haravan's search endpoint (more reliable than ?email= filter)
-exports.findCustomerByEmail = (email) =>
-  haravanFetch(`/customers/search.json?query=email:${encodeURIComponent(email)}&limit=1`);
+// Try both search methods; whichever returns a customer with matching email wins
+exports.findCustomerByEmail = async (email) => {
+  // Method 1: search endpoint
+  try {
+    const r1 = await haravanFetch(`/customers/search.json?query=email:${encodeURIComponent(email)}&limit=1`);
+    const exact1 = (r1.customers || []).filter((c) => c.email === email);
+    if (exact1.length) return { customers: exact1 };
+  } catch {}
+  // Method 2: filter with ?email=
+  const r2 = await haravanFetch(`/customers.json?email=${encodeURIComponent(email)}&limit=50`);
+  const exact2 = (r2.customers || []).filter((c) => c.email === email);
+  return { customers: exact2 };
+};
 
 exports.createCustomer = (data) =>
   haravanFetch('/customers.json', {
