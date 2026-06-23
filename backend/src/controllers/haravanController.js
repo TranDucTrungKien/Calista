@@ -391,8 +391,15 @@ exports.login = handle(async (req, res) => {
     return res.status(400).json({ message: 'Vui lòng nhập email và mật khẩu' });
   }
 
-  const data = await haravan.findCustomerByEmail(email);
-  const customer = (data.customers || [])[0];
+  // Search returns limited fields — fetch full customer by ID to get note
+  const searchData = await haravan.findCustomerByEmail(email);
+  const found = (searchData.customers || [])[0];
+  if (!found) {
+    return res.status(401).json({ message: 'Email hoặc mật khẩu không đúng' });
+  }
+
+  const fullData = await haravan.getCustomer(found.id);
+  const customer = fullData.customer;
   if (!customer) {
     return res.status(401).json({ message: 'Email hoặc mật khẩu không đúng' });
   }
