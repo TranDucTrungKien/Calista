@@ -1,30 +1,8 @@
-const Review = require('../models/review');
-const { recalcRating } = require('./product');
-
-exports.list = async (req, res, next) => {
-  try {
-    const reviews = await Review.find({ productId: req.params.productId })
-      .populate('userId', 'name avatar')
-      .sort({ createdAt: -1 });
-    res.json({ items: reviews });
-  } catch (err) {
-    next(err);
-  }
+// Reviews are not yet available — return empty stubs so the frontend doesn't error
+exports.list = (_req, res) => {
+  res.json({ items: [] });
 };
 
-exports.create = async (req, res, next) => {
-  try {
-    const { rating, comment, images = [] } = req.body;
-    const review = await Review.create({
-      userId: req.user._id,
-      productId: req.params.productId,
-      rating,
-      comment,
-      images,
-    });
-    await recalcRating(req.params.productId);
-    res.status(201).json({ review });
-  } catch (err) {
-    next(err);
-  }
+exports.create = (_req, res) => {
+  res.status(503).json({ message: 'Tính năng đánh giá chưa khả dụng' });
 };
