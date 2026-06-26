@@ -219,7 +219,17 @@ exports.listCategories = handle(async (_req, res) => {
   // Derive categories from product_type of actual products (not Haravan collections)
   const rawProducts = await haravan.getAllProducts();
 
-  const seen = new Set();
+  // Map: category name → first product image found
+  const imageByCategory = {};
+  rawProducts.forEach((p) => {
+    const name = (p.product_type || '').trim();
+    if (name && !imageByCategory[name]) {
+      const img = (p.images || [])[0]?.src || '';
+      if (img) imageByCategory[name] = img;
+    }
+  });
+
+  const seen = new Set(Object.keys(imageByCategory));
   rawProducts.forEach((p) => {
     const name = (p.product_type || '').trim();
     if (name) seen.add(name);
@@ -240,7 +250,7 @@ exports.listCategories = handle(async (_req, res) => {
     name,
     slug: name,
     description: '',
-    image: '',
+    image: imageByCategory[name] || '',
   }));
 
   res.json({ items });
