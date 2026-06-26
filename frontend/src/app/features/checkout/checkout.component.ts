@@ -9,6 +9,7 @@ import { ToastService } from '../../core/services/toast.service';
 import { VndPipe } from '../../shared/pipes/vnd.pipe';
 import { LocationIconComponent } from '../../shared/icons/location-icon.component';
 import { CardIconComponent } from '../../shared/icons/card-icon.component';
+import { AddressFieldsComponent } from '../../shared/components/address-fields/address-fields.component';
 import { PaymentMethod } from '../../core/models';
 
 @Component({
@@ -20,6 +21,7 @@ import { PaymentMethod } from '../../core/models';
     VndPipe,
     LocationIconComponent,
     CardIconComponent,
+    AddressFieldsComponent,
   ],
   template: `
     <div class="container-app py-lg">
@@ -34,27 +36,20 @@ import { PaymentMethod } from '../../core/models';
             </h2>
             <div formGroupName="shippingAddress" class="grid md:grid-cols-2 gap-md">
               <div class="md:col-span-2">
-                <label class="label">Họ tên người nhận</label>
+                <label class="label">Họ tên người nhận <span class="text-error">*</span></label>
                 <input formControlName="fullName" class="input" />
               </div>
               <div>
-                <label class="label">Số điện thoại</label>
+                <label class="label">Số điện thoại <span class="text-error">*</span></label>
                 <input formControlName="phone" class="input" />
               </div>
-              <div>
-                <label class="label">Tỉnh / Thành phố</label>
-                <input formControlName="province" class="input" placeholder="TP. Hồ Chí Minh" />
-              </div>
-              <div>
-                <label class="label">Quận / Huyện</label>
-                <input formControlName="district" class="input" />
-              </div>
-              <div>
-                <label class="label">Phường / Xã</label>
-                <input formControlName="ward" class="input" />
-              </div>
+              <div></div>
+              <app-address-fields
+                [group]="addrGroup"
+                class="contents"
+              />
               <div class="md:col-span-2">
-                <label class="label">Địa chỉ chi tiết</label>
+                <label class="label">Địa chỉ chi tiết <span class="text-error">*</span></label>
                 <input formControlName="line1" class="input" placeholder="Số nhà, tên đường" />
               </div>
             </div>
@@ -130,6 +125,10 @@ export class CheckoutComponent implements OnInit {
   private fb = inject(FormBuilder);
 
   loading = signal(false);
+
+  get addrGroup() {
+    return this.form.controls.shippingAddress;
+  }
 
   methods: { value: PaymentMethod; label: string; desc: string }[] = [
     { value: 'cod', label: 'Thanh toán khi nhận hàng (COD)', desc: 'Trả tiền mặt khi nhận sản phẩm.' },

@@ -9,6 +9,7 @@ import { LocationIconComponent } from '../../shared/icons/location-icon.componen
 import { TrashIconComponent } from '../../shared/icons/trash-icon.component';
 import { PlusIconComponent } from '../../shared/icons/plus-icon.component';
 import { StarButtonDirective } from '../../shared/directives/star-button.directive';
+import { AddressFieldsComponent } from '../../shared/components/address-fields/address-fields.component';
 
 @Component({
   selector: 'app-profile',
@@ -20,6 +21,7 @@ import { StarButtonDirective } from '../../shared/directives/star-button.directi
     TrashIconComponent,
     PlusIconComponent,
     StarButtonDirective,
+    AddressFieldsComponent,
   ],
   template: `
     <div class="container-app py-lg">
@@ -71,12 +73,10 @@ import { StarButtonDirective } from '../../shared/directives/star-button.directi
 
           @if (addingAddr()) {
             <form [formGroup]="addrForm" (ngSubmit)="saveAddr()" class="grid md:grid-cols-2 gap-md p-md rounded-md bg-surface-low mb-md">
-              <div><label class="label">Họ tên</label><input formControlName="fullName" class="input" /></div>
-              <div><label class="label">Điện thoại</label><input formControlName="phone" class="input" /></div>
-              <div><label class="label">Tỉnh / TP</label><input formControlName="province" class="input" /></div>
-              <div><label class="label">Quận / Huyện</label><input formControlName="district" class="input" /></div>
-              <div><label class="label">Phường / Xã</label><input formControlName="ward" class="input" /></div>
-              <div class="md:col-span-2"><label class="label">Địa chỉ</label><input formControlName="line1" class="input" /></div>
+              <div><label class="label">Họ tên <span class="text-error">*</span></label><input formControlName="fullName" class="input" /></div>
+              <div><label class="label">Điện thoại <span class="text-error">*</span></label><input formControlName="phone" class="input" /></div>
+              <app-address-fields [group]="addrForm" class="contents" />
+              <div class="md:col-span-2"><label class="label">Địa chỉ chi tiết <span class="text-error">*</span></label><input formControlName="line1" class="input" /></div>
               <label class="flex items-center gap-sm text-body-sm md:col-span-2">
                 <input type="checkbox" formControlName="isDefault" /> Đặt làm mặc định
               </label>
