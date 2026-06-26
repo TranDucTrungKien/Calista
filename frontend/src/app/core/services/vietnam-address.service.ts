@@ -22,7 +22,7 @@ export interface VnWard {
   division_type: string;
 }
 
-const BASE = 'https://provinces.open-api.vn/api';
+const BASE = 'https://provinces.open-api.vn/api/v1';
 
 @Injectable({ providedIn: 'root' })
 export class VietnamAddressService {
