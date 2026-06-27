@@ -43,11 +43,9 @@ import { PaymentMethod } from '../../core/models';
                 <label class="label">Số điện thoại <span class="text-error">*</span></label>
                 <input formControlName="phone" class="input" />
               </div>
-              <div></div>
-              <app-address-fields
-                [group]="addrGroup"
-                class="contents"
-              />
+              <div class="md:col-span-2">
+                <app-address-fields [group]="addrGroup" />
+              </div>
               <div class="md:col-span-2">
                 <label class="label">Địa chỉ chi tiết <span class="text-error">*</span></label>
                 <input formControlName="line1" class="input" placeholder="Số nhà, tên đường" />

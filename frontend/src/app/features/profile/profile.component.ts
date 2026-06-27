@@ -75,7 +75,7 @@ import { AddressFieldsComponent } from '../../shared/components/address-fields/a
             <form [formGroup]="addrForm" (ngSubmit)="saveAddr()" class="grid md:grid-cols-2 gap-md p-md rounded-md bg-surface-low mb-md">
               <div><label class="label">Họ tên <span class="text-error">*</span></label><input formControlName="fullName" class="input" /></div>
               <div><label class="label">Điện thoại <span class="text-error">*</span></label><input formControlName="phone" class="input" /></div>
-              <app-address-fields [group]="addrForm" class="contents" />
+              <div class="md:col-span-2"><app-address-fields [group]="addrForm" /></div>
               <div class="md:col-span-2"><label class="label">Địa chỉ chi tiết <span class="text-error">*</span></label><input formControlName="line1" class="input" /></div>
               <label class="flex items-center gap-sm text-body-sm md:col-span-2">
                 <input type="checkbox" formControlName="isDefault" /> Đặt làm mặc định
