@@ -31,18 +31,20 @@ exports.getProduct = (id) => haravanFetch(`/products/${id}.json`);
 
 // Fetches ALL products across multiple pages (Haravan max 50/page)
 exports.getAllProducts = async () => {
-  const first = await exports.getProducts({ limit: 50, page: 1 });
-  const all = [...(first.products || [])];
-  const total = first.count ?? all.length;
-  const pages = Math.ceil(total / 50);
-  if (pages > 1) {
-    const rest = await Promise.all(
-      Array.from({ length: pages - 1 }, (_, i) =>
-        exports.getProducts({ limit: 50, page: i + 2 })
-      )
-    );
-    rest.forEach((r) => all.push(...(r.products || [])));
-  }
+  // Haravan's products.json does NOT return a count field, so we call the
+  // count endpoint separately to know how many pages to fetch.
+  const countData = await exports.countProducts();
+  const total = countData.count || 0;
+  const pages = Math.ceil(total / 50) || 1;
+
+  const results = await Promise.all(
+    Array.from({ length: pages }, (_, i) =>
+      exports.getProducts({ limit: 50, page: i + 1 })
+    )
+  );
+
+  const all = [];
+  results.forEach((r) => all.push(...(r.products || [])));
   return all;
 };
 
