@@ -30,6 +30,7 @@ export interface Category {
 
 export interface Product {
   _id: string;
+  variantId?: string;
   name: string;
   slug: string;
   price: number;
@@ -49,6 +50,7 @@ export interface Product {
 export interface CartItem {
   _id: string;
   productId: string;
+  variantId: string;
   qty: number;
   price: number;
   snapshot: { name: string; image: string; slug: string };

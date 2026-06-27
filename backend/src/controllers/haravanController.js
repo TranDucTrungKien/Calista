@@ -16,6 +16,7 @@ function mapProduct(h) {
 
   return {
     _id: String(h.id),
+    variantId: String(variant.id || ''),
     name: h.title || '',
     slug: h.handle || String(h.id),
     price: parseFloat(variant.price) || 0,
@@ -504,13 +505,15 @@ exports.createOrder = handle(async (req, res) => {
     return res.status(400).json({ message: 'Vui lòng nhập địa chỉ giao hàng' });
   }
 
-  const lineItems = items.map((item) => ({
-    product_id: /^\d+$/.test(item.productId) ? Number(item.productId) : undefined,
-    title: item.snapshot?.name || item.name || '',
-    quantity: item.qty,
-    price: String(item.price),
-    requires_shipping: true,
-  }));
+  const lineItems = items.map((item) => {
+    const variantId = /^\d+$/.test(item.variantId) ? Number(item.variantId) : null;
+    const productId = /^\d+$/.test(item.productId) ? Number(item.productId) : null;
+    return {
+      ...(variantId ? { variant_id: variantId } : { product_id: productId }),
+      quantity: item.qty,
+      price: String(item.price),
+    };
+  });
 
   const subtotal = items.reduce((s, i) => s + i.qty * i.price, 0);
   const shippingFee = subtotal >= 500000 ? 0 : 30000;

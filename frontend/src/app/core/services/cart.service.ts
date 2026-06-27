@@ -43,6 +43,7 @@ export class CartService {
       cart.items.push({
         _id: `local-${product._id}`,
         productId: product._id,
+        variantId: product.variantId || '',
         qty,
         price: product.price,
         snapshot: {
