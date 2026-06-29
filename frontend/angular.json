@@ -29,7 +29,8 @@
             ],
             "styles": [
               "src/styles/tokens.css",
-              "src/styles/global.css"
+              "src/styles/global.css",
+              "node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": []
           },
