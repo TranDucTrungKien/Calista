@@ -135,7 +135,7 @@ export class ProfileComponent implements OnInit {
   addrForm = this.fb.nonNullable.group({
     fullName: ['', Validators.required],
     phone: ['', Validators.required],
-    province: ['', Validators.required],
+    province: [''],
     district: [''],
     ward: [''],
     line1: ['', Validators.required],

@@ -138,7 +138,7 @@ export class CheckoutComponent implements OnInit {
     shippingAddress: this.fb.nonNullable.group({
       fullName: ['', Validators.required],
       phone: ['', Validators.required],
-      province: ['', Validators.required],
+      province: [''],
       district: [''],
       ward: [''],
       line1: ['', Validators.required],
@@ -176,7 +176,14 @@ export class CheckoutComponent implements OnInit {
   submit() {
     this.form.markAllAsTouched();
     if (this.form.invalid) {
-      this.toast.error('Vui lòng điền đầy đủ thông tin giao hàng');
+      const sa = this.form.controls.shippingAddress.controls;
+      const missing: string[] = [];
+      if (sa['fullName'].invalid) missing.push('Họ tên');
+      if (sa['phone'].invalid)    missing.push('Số điện thoại');
+      if (sa['line1'].invalid)    missing.push('Địa chỉ chi tiết');
+      this.toast.error(missing.length
+        ? `Vui lòng điền: ${missing.join(', ')}`
+        : 'Vui lòng điền đầy đủ thông tin giao hàng');
       return;
     }
     if (this.cart.cart().items.length === 0) {
