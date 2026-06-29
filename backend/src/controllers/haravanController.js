@@ -282,8 +282,8 @@ function formatCustomerUser(customer) {
       phone: a.phone || '',
       line1: a.address1 || '',
       ward: a.address2 || '',
-      district: '',
-      province: a.city || a.province || '',
+      district: a.city || '',
+      province: a.province || '',
       isDefault: a.default || false,
     })),
   };
@@ -447,12 +447,12 @@ exports.login = handle(async (req, res) => {
         phone: customer.phone || '',
         addresses: (customer.addresses || []).map((a) => ({
           _id: String(a.id),
-          fullName: a.name || `${a.first_name} ${a.last_name}`.trim(),
+          fullName: a.name || `${a.first_name || ''} ${a.last_name || ''}`.trim(),
           phone: a.phone || '',
           line1: a.address1 || '',
           ward: a.address2 || '',
-          district: '',
-          province: a.city || a.province || '',
+          district: a.city || '',
+          province: a.province || '',
           isDefault: a.default || false,
         })),
       },
@@ -506,8 +506,8 @@ exports.createOrder = handle(async (req, res) => {
   }
 
   const lineItems = items.map((item) => {
-    const variantId = /^\d+$/.test(item.variantId) ? Number(item.variantId) : null;
-    const productId = /^\d+$/.test(item.productId) ? Number(item.productId) : null;
+    const variantId = /^\d+$/.test(String(item.variantId)) ? Number(item.variantId) : null;
+    const productId = /^\d+$/.test(String(item.productId)) ? Number(item.productId) : null;
     return {
       ...(variantId ? { variant_id: variantId } : { product_id: productId }),
       quantity: item.qty,
@@ -528,30 +528,104 @@ exports.createOrder = handle(async (req, res) => {
     shipping_address: {
       first_name: firstName,
       last_name: lastName,
-      name: shippingAddress.fullName,
-      phone: shippingAddress.phone,
-      address1: shippingAddress.line1,
+      name: shippingAddress.fullName || '',
+      phone: shippingAddress.phone || '',
+      address1: shippingAddress.line1 || '',
       address2: shippingAddress.ward || '',
       city: shippingAddress.district || '',
       province: shippingAddress.province || '',
       country: 'Vietnam',
+      country_code: 'VN',
     },
     gateway: paymentMethod || 'cod',
-    financial_status: 'pending',
     note: note || '',
     shipping_lines: shippingFee > 0
       ? [{ price: String(shippingFee), title: 'Phí vận chuyển', code: 'standard' }]
       : [],
   };
 
-  const created = await haravan.createOrder(orderData);
+  console.log('[createOrder] payload:', JSON.stringify(orderData, null, 2));
+
+  let created;
+  try {
+    created = await haravan.createOrder(orderData);
+  } catch (err) {
+    console.error('[createOrder] Haravan error:', err.message);
+    // Parse Haravan validation errors into a readable message
+    let msg = 'Tạo đơn hàng thất bại';
+    try {
+      const body = JSON.parse(err.message.replace(/^Haravan \d+:\s*/, ''));
+      const errors = body.errors || body.error;
+      if (errors) {
+        const detail = typeof errors === 'string' ? errors
+          : Object.entries(errors).map(([k, v]) => `${k}: ${Array.isArray(v) ? v[0] : v}`).join('; ');
+        msg = detail;
+      }
+    } catch { /* ignore parse errors */ }
+    return res.status(err.status || 502).json({ message: msg });
+  }
+
   const order = created.order;
-  if (!order) return res.status(502).json({ message: 'Tạo đơn hàng thất bại' });
+  if (!order) return res.status(502).json({ message: 'Tạo đơn hàng thất bại — Haravan không trả về dữ liệu' });
+
+  console.log('[createOrder] success, order #', order.order_number);
 
   res.json({
     order: mapOrder(order),
     payment: { provider: paymentMethod, payUrl: null },
   });
+});
+
+// ─── Customer address management ─────────────────────────────────────────────
+
+function mapAddress(a) {
+  return {
+    _id: String(a.id),
+    fullName: a.name || `${a.first_name || ''} ${a.last_name || ''}`.trim(),
+    phone: a.phone || '',
+    line1: a.address1 || '',
+    ward: a.address2 || '',
+    district: a.city || '',
+    province: a.province || '',
+    isDefault: a.default || false,
+  };
+}
+
+exports.addMyAddress = handle(async (req, res) => {
+  const { fullName, phone, line1, ward, district, province, isDefault } = req.body;
+  const nameParts = (fullName || '').trim().split(' ');
+  const lastName = nameParts.pop() || '';
+  const firstName = nameParts.join(' ') || lastName;
+
+  await haravan.createCustomerAddress(req.user.id, {
+    first_name: firstName,
+    last_name: lastName,
+    name: fullName || '',
+    phone: phone || '',
+    address1: line1 || '',
+    address2: ward || '',
+    city: district || '',
+    province: province || '',
+    country: 'Vietnam',
+    country_code: 'VN',
+  });
+
+  const customerData = await haravan.getCustomer(req.user.id);
+  const addresses = (customerData.customer?.addresses || []).map(mapAddress);
+
+  if (isDefault && addresses.length) {
+    const newest = addresses[addresses.length - 1];
+    try { await haravan.createCustomerAddress(req.user.id, { id: newest._id, default: true }); } catch {}
+  }
+
+  res.json({ addresses });
+});
+
+exports.removeMyAddress = handle(async (req, res) => {
+  await haravan.deleteCustomerAddress(req.user.id, req.params.addrId);
+  const customerData = await haravan.getCustomer(req.user.id);
+  const addresses = (customerData.customer?.addresses || []).map(mapAddress);
+  res.json({ addresses });
 });
 
 exports.listMyOrders = handle(async (req, res) => {

@@ -114,3 +114,16 @@ exports.getOrdersByCustomerId = (customerId, { limit = 20, page = 1 } = {}) => {
   const params = new URLSearchParams({ limit, page, customer_id: String(customerId) });
   return haravanFetch(`/orders.json?${params}`);
 };
+
+// ─── Customer addresses ───────────────────────────────────────────────────────
+
+exports.createCustomerAddress = (customerId, data) =>
+  haravanFetch(`/customers/${customerId}/addresses.json`, {
+    method: 'POST',
+    body: JSON.stringify({ address: data }),
+  });
+
+exports.deleteCustomerAddress = (customerId, addressId) =>
+  haravanFetch(`/customers/${customerId}/addresses/${addressId}.json`, {
+    method: 'DELETE',
+  });

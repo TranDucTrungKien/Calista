@@ -24,6 +24,8 @@ router.get('/collections/:id', ctrl.getCollection);
 router.get('/me', requireAuth, ctrl.getMe);
 router.put('/me', requireAuth, ctrl.updateMe);
 router.put('/me/password', requireAuth, ctrl.changePassword);
+router.post('/me/addresses', requireAuth, ctrl.addMyAddress);
+router.delete('/me/addresses/:addrId', requireAuth, ctrl.removeMyAddress);
 
 // ─── Orders (customer) — authenticated ───────────────────────────────────────
 router.post('/orders', requireAuth, ctrl.createOrder);

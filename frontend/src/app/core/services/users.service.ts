@@ -25,19 +25,13 @@ export class UsersService {
 
   addAddress(addr: Omit<Address, '_id'>) {
     return this.http.post<{ addresses: Address[] }>(
-      `${this.base}/users/me/addresses`,
-      addr
-    );
-  }
-  updateAddress(id: string, addr: Omit<Address, '_id'>) {
-    return this.http.put<{ addresses: Address[] }>(
-      `${this.base}/users/me/addresses/${id}`,
+      `${this.base}/haravan/me/addresses`,
       addr
     );
   }
   removeAddress(id: string) {
     return this.http.delete<{ addresses: Address[] }>(
-      `${this.base}/users/me/addresses/${id}`
+      `${this.base}/haravan/me/addresses/${id}`
     );
   }
 
